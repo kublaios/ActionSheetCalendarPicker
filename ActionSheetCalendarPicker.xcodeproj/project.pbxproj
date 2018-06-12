@@ -12,9 +12,11 @@
 		3E0A280A20CE86C1006159BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280820CE86C1006159BF /* Main.storyboard */; };
 		3E0A280C20CE86C3006159BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280B20CE86C3006159BF /* Assets.xcassets */; };
 		3E0A280F20CE86C3006159BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280D20CE86C3006159BF /* LaunchScreen.storyboard */; };
+		EA8D9EC16F70ACB399FB024B /* Pods_ActionSheetCalendarPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339FBE66F478820914D1BCD0 /* Pods_ActionSheetCalendarPicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		339FBE66F478820914D1BCD0 /* Pods_ActionSheetCalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionSheetCalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0A280120CE86C1006159BF /* ActionSheetCalendarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheetCalendarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0A280420CE86C1006159BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E0A280620CE86C1006159BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,9 @@
 		3E0A280B20CE86C3006159BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E0A280E20CE86C3006159BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E0A281020CE86C3006159BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8045F920CFC69300E6AA5B /* ActionSheetCalendarPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionSheetCalendarPicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		790A02C5EEA1EB349B2FD91E /* Pods-ActionSheetCalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionSheetCalendarPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.release.xcconfig"; sourceTree = "<group>"; };
+		DCD8F84F2E0D3D7BB618E8AB /* Pods-ActionSheetCalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionSheetCalendarPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8D9EC16F70ACB399FB024B /* Pods_ActionSheetCalendarPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				3E0A280320CE86C1006159BF /* ActionSheetCalendarPicker */,
 				3E0A280220CE86C1006159BF /* Products */,
+				D9152E71201B9300097A8E75 /* Pods */,
+				D56F1F613B1AC1B5D06165C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,26 @@
 				3E0A280B20CE86C3006159BF /* Assets.xcassets */,
 				3E0A280D20CE86C3006159BF /* LaunchScreen.storyboard */,
 				3E0A281020CE86C3006159BF /* Info.plist */,
+				3E8045F920CFC69300E6AA5B /* ActionSheetCalendarPicker-Bridging-Header.h */,
 			);
 			path = ActionSheetCalendarPicker;
+			sourceTree = "<group>";
+		};
+		D56F1F613B1AC1B5D06165C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339FBE66F478820914D1BCD0 /* Pods_ActionSheetCalendarPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9152E71201B9300097A8E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8F84F2E0D3D7BB618E8AB /* Pods-ActionSheetCalendarPicker.debug.xcconfig */,
+				790A02C5EEA1EB349B2FD91E /* Pods-ActionSheetCalendarPicker.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E0A281320CE86C3006159BF /* Build configuration list for PBXNativeTarget "ActionSheetCalendarPicker" */;
 			buildPhases = (
+				A5219F77FC02C74E6A8224DC /* [CP] Check Pods Manifest.lock */,
 				3E0A27FD20CE86C1006159BF /* Sources */,
 				3E0A27FE20CE86C1006159BF /* Frameworks */,
 				3E0A27FF20CE86C1006159BF /* Resources */,
+				542E8B27650B50B99061A443 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +124,7 @@
 				TargetAttributes = {
 					3E0A280020CE86C1006159BF = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -129,6 +158,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		542E8B27650B50B99061A443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LGAlertView/LGAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5219F77FC02C74E6A8224DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActionSheetCalendarPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E0A27FD20CE86C1006159BF /* Sources */ = {
@@ -278,8 +346,10 @@
 		};
 		3E0A281420CE86C3006159BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD8F84F2E0D3D7BB618E8AB /* Pods-ActionSheetCalendarPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S3FTRWYE7;
 				INFOPLIST_FILE = ActionSheetCalendarPicker/Info.plist;
@@ -290,6 +360,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.ActionSheetCalendarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ActionSheetCalendarPicker/ActionSheetCalendarPicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,8 +369,10 @@
 		};
 		3E0A281520CE86C3006159BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790A02C5EEA1EB349B2FD91E /* Pods-ActionSheetCalendarPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S3FTRWYE7;
 				INFOPLIST_FILE = ActionSheetCalendarPicker/Info.plist;
@@ -309,6 +383,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.ActionSheetCalendarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ActionSheetCalendarPicker/ActionSheetCalendarPicker-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

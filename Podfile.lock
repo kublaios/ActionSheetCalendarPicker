@@ -1,0 +1,16 @@
+PODS:
+  - LGAlertView (2.4.0)
+
+DEPENDENCIES:
+  - LGAlertView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LGAlertView
+
+SPEC CHECKSUMS:
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+
+PODFILE CHECKSUM: c6272e377d13064b510f541d4d62be2bf2823403
+
+COCOAPODS: 1.5.0
