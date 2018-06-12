@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xyw-70-bSD" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
-                    <rect key="frame" x="-0.5" y="30" width="375" height="345"/>
+                    <rect key="frame" x="-0.5" y="68.5" width="375" height="306.5"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="375" id="HDF-YT-Xvy"/>
@@ -79,20 +79,29 @@
                         <constraint firstAttribute="height" constant="30" id="vfT-RM-qtb"/>
                     </constraints>
                 </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZl-EI-llh">
+                    <rect key="frame" x="16" y="38" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5Bt-7i-OTN" secondAttribute="trailing" id="0hB-6m-PY7"/>
-                <constraint firstItem="xyw-70-bSD" firstAttribute="top" secondItem="5Bt-7i-OTN" secondAttribute="bottom" id="B4F-0K-HEX"/>
+                <constraint firstItem="JZl-EI-llh" firstAttribute="top" secondItem="5Bt-7i-OTN" secondAttribute="bottom" constant="8" id="B2d-41-qUi"/>
                 <constraint firstItem="5Bt-7i-OTN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BwE-QT-cFt"/>
                 <constraint firstItem="5Bt-7i-OTN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Mi8-YI-RQq"/>
                 <constraint firstItem="xyw-70-bSD" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="TRj-Hc-7Mb"/>
                 <constraint firstItem="xyw-70-bSD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g9P-Wd-0rr"/>
+                <constraint firstItem="xyw-70-bSD" firstAttribute="top" secondItem="JZl-EI-llh" secondAttribute="bottom" constant="10" id="jcE-Rf-qu2"/>
+                <constraint firstItem="JZl-EI-llh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="vWb-sy-M9j"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="calendarView" destination="xyw-70-bSD" id="chN-9j-J6D"/>
+                <outlet property="monthLabel" destination="JZl-EI-llh" id="RmG-G3-7NG"/>
                 <outlet property="widthConstant" destination="HDF-YT-Xvy" id="CmQ-gQ-f10"/>
             </connections>
             <point key="canvasLocation" x="53.5" y="167.5"/>

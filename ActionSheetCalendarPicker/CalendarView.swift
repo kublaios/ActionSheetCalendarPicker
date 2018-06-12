@@ -14,6 +14,7 @@ class CalendarView: UIView
 {
     @IBOutlet weak var widthConstant: NSLayoutConstraint?
     @IBOutlet weak var calendarView: JTAppleCalendarView?
+    @IBOutlet weak var monthLabel: UILabel?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

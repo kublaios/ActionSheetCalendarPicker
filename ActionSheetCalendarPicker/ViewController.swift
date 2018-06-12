@@ -41,6 +41,13 @@ class ViewController: UIViewController {
             cv.calendarView?.minimumLineSpacing = 0
             cv.calendarView?.minimumInteritemSpacing = 0
             
+            // set date label
+            cv.calendarView?.visibleDates({ (visibleDates) in
+                guard let date = visibleDates.monthDates.first?.date else { return }
+                self.formatter.dateFormat = "MMMM"
+                cv.monthLabel?.text = self.formatter.string(from: date)
+            })
+            
             // initialize the action sheet
             let aSheet = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: cv, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
             aSheet.offsetVertical = 0
@@ -111,5 +118,12 @@ extension ViewController: JTAppleCalendarViewDelegate
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
         self.handleCellBackgroundColor(cell: cell, cellState: cellState)
         self.handleCellTextColor(cell: cell, cellState: cellState)
+    }
+    
+    func calendar(_ calendar: JTAppleCalendarView, didScrollToDateSegmentWith visibleDates: DateSegmentInfo) {
+        guard let date = visibleDates.monthDates.first?.date else { return }
+        guard let cv = calendar.superview as? CalendarView else { return }
+        self.formatter.dateFormat = "MMMM"
+        cv.monthLabel?.text = self.formatter.string(from: date)
     }
 }
