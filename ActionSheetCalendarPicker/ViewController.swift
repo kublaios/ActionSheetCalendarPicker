@@ -12,8 +12,11 @@ import JTAppleCalendar
 import DateToolsSwift
 
 class ViewController: UIViewController {
+    @IBOutlet weak var lblSelectedDate: UILabel?
+    
     let formatter = DateFormatter()
     var activeSheet: LGAlertView?
+    var calendarView: JTAppleCalendarView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +31,8 @@ class ViewController: UIViewController {
     @IBAction func selectDate(sender: Any?) {
         // Check if custom view is available
         if let cv = Bundle.main.loadNibNamed("CalendarView", owner: self, options: nil)?.first as? CalendarView {
+            self.calendarView = cv.calendarView
+            
             // configure the width of the custom view
             cv.widthConstant?.constant = self.view.frame.size.width
             
@@ -93,6 +98,15 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController: LGAlertViewDelegate
+{
+    func alertViewDidDismiss(_ alertView: LGAlertView) {
+        guard let calendar = self.calendarView else { return }
+        calendar.deselectAllDates()
+    }
+}
+
+// MARK: JTAppleCalendarViewDataSource
 extension ViewController: JTAppleCalendarViewDataSource
 {
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
@@ -111,6 +125,7 @@ extension ViewController: JTAppleCalendarViewDataSource
     }
 }
 
+// MARK: JTAppleCalendarViewDelegate
 extension ViewController: JTAppleCalendarViewDelegate
 {
     func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
@@ -128,7 +143,10 @@ extension ViewController: JTAppleCalendarViewDelegate
     func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
         self.handleCellBackgroundColor(cell: cell, cellState: cellState)
         self.handleCellTextColor(cell: cell, cellState: cellState)
-        print(date)
+        self.formatter.dateFormat = "dd MMM yyyy"
+        self.lblSelectedDate?.text = self.formatter.string(from: date)
+        self.closePicker(sender: nil)
+        // TODO: delay the closing of the picker
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
