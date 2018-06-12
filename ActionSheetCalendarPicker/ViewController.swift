@@ -12,6 +12,7 @@ import JTAppleCalendar
 
 class ViewController: UIViewController {
     let formatter = DateFormatter()
+    var activeSheet: LGAlertView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,16 +49,27 @@ class ViewController: UIViewController {
                 cv.monthLabel?.text = self.formatter.string(from: date)
             })
             
+            // set header label and close button action
+            cv.headerLabel?.text = "DEPARTURE DATE"
+            cv.headerButton?.addTarget(self, action: #selector(self.closePicker(sender:)), for: .touchUpInside)
+            
             // initialize the action sheet
             let aSheet = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: cv, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
             aSheet.offsetVertical = 0
             aSheet.cancelButtonOffsetY = 0
             aSheet.layerCornerRadius = 0
             aSheet.width = self.view.frame.size.width
+            self.activeSheet = aSheet // set the property to use when close button is tapped
             aSheet.showAnimated()
         } else {
             print("Something is wrong with the custom view")
         }
+    }
+    
+    // IB helper functions
+    @objc func closePicker(sender: Any?) {
+        guard let aSheet = self.activeSheet else { return }
+        aSheet.dismissAnimated()
     }
     
     // in-house helper functions
