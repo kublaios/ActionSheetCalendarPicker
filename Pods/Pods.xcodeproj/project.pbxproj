@@ -7,67 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B51A9088ADB8B5E3BDA2EAECCA229D /* UIWindow+LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFA8BB11504EE69C651E0D2E1552D90 /* UIWindow+LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C2D8880DC2292B8D4568988AF35C701 /* LGAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FC11F91E0CFDC0811D7DC489170CA7 /* LGAlertViewHelper.m */; };
-		158BD6C63899809FE159E3B6EA3ADE63 /* LGAlertViewWindowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A99296FA30DE44C59D963CF0F480480B /* LGAlertViewWindowContainer.m */; };
-		1B1647000647359D4437E641E5074623 /* Pods-ActionSheetCalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36BD5CC9D2DE8FCA3D23503145D0AF4 /* Pods-ActionSheetCalendarPicker-dummy.m */; };
-		1BAEF63085A6938F1C26B64022DEAF29 /* LGAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3299BA159AA98A9269FECFCD27AB14 /* LGAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30C58AC6C38CB2C2BCDEB42697D95D5F /* LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3348C4F337516232F58B31F2ED88B06 /* LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3150DC89B627CCDF7AE9AB1B38AA0C05 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784100936D3B12CF6B8E1E4FB94DECA /* JTAppleCalendarDelegateProtocol.swift */; };
-		371C1A65A79396D04E7BD098BB52F3AE /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8B1DC96E5FB89BC49E2CEF05EC6B5 /* UserInteractionFunctions.swift */; };
-		3F7BBDADFFCBA9E6EF4450294D0EC654 /* LGAlertViewWindowContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD038F8CBE0331177EE81EA16046B12 /* LGAlertViewWindowContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44EAE458BED20531212FAE3246B6350C /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8E2CED34DE5C6C582553EBC04C068 /* JTAppleCalendarLayoutProtocol.swift */; };
-		506CE4ACD96B5F69FB1D82470A183E07 /* LGAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE9CA6DCB064EB1995AC449AC3B3910 /* LGAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52CB24003B0C56C788739EF3F2D92DBF /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F9CBCDF1963B8230C0748A0729460 /* JTAppleCalendarVariables.swift */; };
-		5FD9E24D277AE483772A7AD3D1709426 /* LGAlertViewButtonProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B25D8383B383AE1DDE635BACF31414 /* LGAlertViewButtonProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62AE4C01F0FD029C69064E885E8CECB2 /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3745A2A5AABC6A710C5075023A072 /* InternalActionFunctions.swift */; };
-		6DE3875930E2A44854A28CFEC04F1992 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763CA9810FAAB999F9E1433E7BA35F51 /* JTAppleCell.swift */; };
-		732791936803EA17C15C484FE363E66D /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8783354C6DD7A50EA088A23844A4E7A /* GlobalFunctionsAndExtensions.swift */; };
-		7425A49E6FA014BB96680E7383BA87FA /* LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAB1CD0C3D4A2920F0A9498CCADCAF /* LGAlertView.m */; };
-		7573593FBE25F85B79E10A7333E583E7 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E96A56AB35B8ED712E7C13364CE10EA /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		764F39D02E650F5C73BCDB6C8A14E2F0 /* LGAlertViewTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 52667E2AE20D47F75E0C1C834F25B83C /* LGAlertViewTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76DBA50159B62B67EDC0FEDAB9D272CA /* LGAlertViewShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79236937C3F5FAB4C542FCA1B57C5B3E /* LGAlertViewShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A921A8839675DF38879169190AADB15 /* LGAlertViewWindowsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DE92599C323BA36BFB7F7EFF1E8B38E4 /* LGAlertViewWindowsObserver.m */; };
-		7BF6D2DE88FA18F3A0A1ECE15A8F3E6E /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B024EB7F133502E1CB5BFD520A4F7 /* UICollectionViewDelegates.swift */; };
-		7F6EFA9ADD1236862F2C81C49D4DFF20 /* LGAlertViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E2B326DAB6382FDA7BE0D40CB43C2 /* LGAlertViewTextField.m */; };
+		09B51A9088ADB8B5E3BDA2EAECCA229D /* UIWindow+LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A0CD6C2A82C6CA2DA9D38169284879 /* UIWindow+LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2D8880DC2292B8D4568988AF35C701 /* LGAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 209DE3D61971C18296FDBF7F6E31D849 /* LGAlertViewHelper.m */; };
+		158BD6C63899809FE159E3B6EA3ADE63 /* LGAlertViewWindowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A1E615EF54B9020B9240218606804 /* LGAlertViewWindowContainer.m */; };
+		1BAEF63085A6938F1C26B64022DEAF29 /* LGAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2788B71B2BC26EFDC7524E98C19B3654 /* LGAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2518B47E0F11D166F5207B96C1EFB53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2BC39A33E21B7A8820E4B2FE48723FB5 /* DateToolsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C343563530825CE072089FB627D379 /* DateToolsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C58AC6C38CB2C2BCDEB42697D95D5F /* LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 172286DD11B5A1D1467005F80CD7C462 /* LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3150DC89B627CCDF7AE9AB1B38AA0C05 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D91214CDC6F22D9899B1A912D7EF5C /* JTAppleCalendarDelegateProtocol.swift */; };
+		371C1A65A79396D04E7BD098BB52F3AE /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5402AC75D58FFD73E8B5BB9EA83BED40 /* UserInteractionFunctions.swift */; };
+		39896AD7E2573C35F4A82C5EB8F04655 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55167AF6FA3C2405F5D972210FCCB76B /* TimePeriodGroup.swift */; };
+		3F7BBDADFFCBA9E6EF4450294D0EC654 /* LGAlertViewWindowContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5DE37D6F12715F9D2921213881055E /* LGAlertViewWindowContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EAE458BED20531212FAE3246B6350C /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF1537BAE3936429ED74BC7E52AFB1 /* JTAppleCalendarLayoutProtocol.swift */; };
+		4AEA03365E6DFD3203288595698AB8CC /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5380265EEEB41BDC81F38B88F2BC2F38 /* Date+Inits.swift */; };
+		4E5E70335AC94377291526163247B72A /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D783814F23550B3E1C6B819926F6443 /* Date+Format.swift */; };
+		506CE4ACD96B5F69FB1D82470A183E07 /* LGAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75716791C798EFE7FB38B3C0BA5B2827 /* LGAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CB24003B0C56C788739EF3F2D92DBF /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F48A01208AE7388A3A9B71CF15CBCD /* JTAppleCalendarVariables.swift */; };
+		563A18A4003D535DE5E75AA05B342ADB /* DateToolsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00951EE69AA820FDAC56307F479FC12A /* DateToolsSwift-dummy.m */; };
+		59A22622F79502600F0C9D9ADB1610E2 /* Pods-ActionSheetCalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36BD5CC9D2DE8FCA3D23503145D0AF4 /* Pods-ActionSheetCalendarPicker-dummy.m */; };
+		5C97B56B7994F1393537B4488ADE0FB3 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B165819B68CFBCBBCF1DB873D8FF2600 /* TimePeriodCollection.swift */; };
+		5E516EEEB94BB900187FDFA3CC2E9FB4 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC3EE230B4B3F89DABD4AF211599A9 /* Date+Manipulations.swift */; };
+		5FD9E24D277AE483772A7AD3D1709426 /* LGAlertViewButtonProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = FA090BB242002C3C036B21EE852B4485 /* LGAlertViewButtonProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611D17799A2956EA6E8676F97292644D /* Pods-ActionSheetCalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 485212BEF0F1EF2DA38AF925B922BEEB /* Pods-ActionSheetCalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62AE4C01F0FD029C69064E885E8CECB2 /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D01C914925FD4800A93EE0A19DB88 /* InternalActionFunctions.swift */; };
+		64C9F4903A26546EA0BB3B3A899CF915 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0C1C29FC3B71641AC041DC650F412 /* Date+Comparators.swift */; };
+		6A0507497F0419B6E24146DB4DD3168A /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580A43A2C8793F5FB0C53B66329BD14 /* TimePeriodChain.swift */; };
+		6DE3875930E2A44854A28CFEC04F1992 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF368F4A1219AF4FC16957EA6EB74DC /* JTAppleCell.swift */; };
+		6E7D1D65F26E071B668B6C38CE547C8E /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE7D29A7A5E9D278150C92DC4A6A0C /* Date+TimeAgo.swift */; };
+		732791936803EA17C15C484FE363E66D /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E5BF87684ADB4F3F8461556A7C2 /* GlobalFunctionsAndExtensions.swift */; };
+		7425A49E6FA014BB96680E7383BA87FA /* LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4763D7CCD1A47061ADF69D6ECF5160 /* LGAlertView.m */; };
+		7573593FBE25F85B79E10A7333E583E7 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CBBED048EA8D26DA33F12330060C05 /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764F39D02E650F5C73BCDB6C8A14E2F0 /* LGAlertViewTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E927713F7F88DEFB2C5D550EB43BCE /* LGAlertViewTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DBA50159B62B67EDC0FEDAB9D272CA /* LGAlertViewShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F0AE454D53F834BF29AF12D413432D /* LGAlertViewShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A921A8839675DF38879169190AADB15 /* LGAlertViewWindowsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5972635E462F484F2CDE779F640F1D8D /* LGAlertViewWindowsObserver.m */; };
+		7BF6D2DE88FA18F3A0A1ECE15A8F3E6E /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6330D94FC1F6FD561EFE63C2AF9193 /* UICollectionViewDelegates.swift */; };
+		7F6EFA9ADD1236862F2C81C49D4DFF20 /* LGAlertViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040499BB57ECD653A2D1841EB3046D0 /* LGAlertViewTextField.m */; };
 		8089ACA984AE422C95F04901C7792BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8160AFBA5F2BB3FF055076CAFEA4588B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		823FB19BACA69F2F0DFF596403630EE2 /* LGAlertViewShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F00637FEC7B98AF8F232BBE41386FBD /* LGAlertViewShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89C3EC32079226CDBA9AD664CFD3DB7B /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17BD147EDC7743435488822BE38ABA /* JTAppleCalendarView.swift */; };
-		9D51A8ADC90310C8270F5C86B7CEB379 /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF1873164566A3FC4AE76680657509 /* UIScrollViewDelegates.swift */; };
-		9FC6C8FF22D45590A4CC466CDE175749 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC545746AEC494C00E16CAC94DA0167 /* JTAppleCollectionReusableView.swift */; };
-		A9A110279F3650CD3BD01F3BF50FC5AA /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8B2CEB50AA693E9749127B182E9B5 /* CalendarStructs.swift */; };
-		AFA4EA752245328E938EB3F99FA4D57B /* LGAlertViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4107D03AAB5821267C7E7B32452E4B1B /* LGAlertViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B26AB32E6164A086A8CB9978B7BF0A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B95FE078CFD340D8F475DE83245F927C /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999421AD28E77A118EB594A02D18BD66 /* InternalQueryFunctions.swift */; };
-		BCECDE99BECB17A268A5BFDEFFA445C3 /* LGAlertViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 62023F8E5DD98EBAD3DEA9A63BCDFC86 /* LGAlertViewWindow.m */; };
-		C1B6669E99C4AE54D8A0E5265C1F67FB /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676D029ADC639F2C0520AE618FB69315 /* JTAppleCalendarLayout.swift */; };
-		C21F724CEAA9E0F55389035B542956D3 /* LGAlertViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B204CE1E6677FFCE65D019FA91B6D199 /* LGAlertViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5257F2A290F76C6C556EA785E7F3C69 /* LGAlertViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6227E1E61C18DB32D92F9CE05D758D2F /* LGAlertViewButton.m */; };
-		CCE47926A76246202592A7E6EDC96BC3 /* LGAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC237660910CFAD2CB4E7D3D7F970EEE /* LGAlertView-dummy.m */; };
-		D345A4B11C07DA410D0D377A41F4EA44 /* LGAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78E89DF9C71BB2D7933AF20A72534C2 /* LGAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5C55FA7D32E895A26DCC6786CFCE00F /* LGAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7EA6D1C667F5A61C3F21E01786B41 /* LGAlertViewCell.m */; };
-		D945C3B9606152292B6AFF004D97BA87 /* LGAlertViewButtonProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C93B29D5FE004ACFD75F1C9EB752B1 /* LGAlertViewButtonProperties.m */; };
-		E3C5E05181344C594277AAD5E5541433 /* LGAlertViewShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F745B4C5D41C640E062795CF437F05A /* LGAlertViewShadowView.m */; };
-		E824E5686FA7E8303C4601097FBAC23F /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EEA11A85382B15D6B2F08917F18BEC /* JTCalendarProtocols.swift */; };
-		E89E0E97FAFAF04B90DE4DEB7A27D654 /* Pods-ActionSheetCalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 485212BEF0F1EF2DA38AF925B922BEEB /* Pods-ActionSheetCalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F28873461E01F57EAC139896C20255DF /* LGAlertViewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA9C8AAA3259C6A2D3B002A3817DDE8 /* LGAlertViewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6F00AB9C7083ECE4A27E066EE47D068 /* LGAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62A0D1AC3CAC300C0F84B2D7517E704 /* LGAlertViewController.m */; };
-		F7F8FE98FBE2455E87F7E41D20FA4194 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C42A398A79712E6ED50E91455DE6A2C /* CalendarEnums.swift */; };
-		FBD8DDE10C7019F8190CE2795396F38A /* UIWindow+LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73603E51445F0C25C12F4C10FA6455D7 /* UIWindow+LGAlertView.m */; };
-		FDF098C5A315FD1151444BBCE59EFE29 /* LGAlertViewWindowsObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCDE81D8A1CA7B36DC6DBBC897BCD16 /* LGAlertViewWindowsObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE1689779B1ABFD6586C76E20297224D /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C957F9DC9AC387A35366A80ED2C419 /* JTAppleCalendar-dummy.m */; };
+		823FB19BACA69F2F0DFF596403630EE2 /* LGAlertViewShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B15E4FEBDF47B598EBD3686114DB588 /* LGAlertViewShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C3EC32079226CDBA9AD664CFD3DB7B /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F97A6C21CB20C9B7691B1885FA066 /* JTAppleCalendarView.swift */; };
+		99E3BEA8FC5191DC18AF7BF32A6E9086 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FBE2FA8916361E12053C31F462852 /* Date+Bundle.swift */; };
+		9D51A8ADC90310C8270F5C86B7CEB379 /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C54F26AF66D0AF23395BD6577F48F /* UIScrollViewDelegates.swift */; };
+		9FC6C8FF22D45590A4CC466CDE175749 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B11773EB909115884652ABDC28B1A /* JTAppleCollectionReusableView.swift */; };
+		A2FF27042FD7D36C8DF0130898F6DB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A9A110279F3650CD3BD01F3BF50FC5AA /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD73D766AB53848230B9931AEE0CC4E /* CalendarStructs.swift */; };
+		AAB052ACD1C2F5CD61EA09A67BE5938F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083B11EAD82EBC2B353352B8E288E1B /* Enums.swift */; };
+		AFA4EA752245328E938EB3F99FA4D57B /* LGAlertViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C71BE59226364CEE326F1E6D261886 /* LGAlertViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0A382528DC015EFD81F39C35D669F8E /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1502F13F03EC5497570359FFEA11273 /* TimePeriod.swift */; };
+		B95FE078CFD340D8F475DE83245F927C /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB834E8F96D86527DC51AB8FBCAFB88 /* InternalQueryFunctions.swift */; };
+		BCECDE99BECB17A268A5BFDEFFA445C3 /* LGAlertViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3489F38D6B131D76C2989DAA2085D1C9 /* LGAlertViewWindow.m */; };
+		C0BA12E6FF13BCD3D8129522B3BC6ACF /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0359F0357BA1417B45C7B5DEFD09E9FA /* DateTools.bundle */; };
+		C1B6669E99C4AE54D8A0E5265C1F67FB /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE862C598E6771AF4397EB286BF71D /* JTAppleCalendarLayout.swift */; };
+		C21F724CEAA9E0F55389035B542956D3 /* LGAlertViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A5CCFD31ED74B533A6C6FBD27A48AA /* LGAlertViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5257F2A290F76C6C556EA785E7F3C69 /* LGAlertViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B34CDF55F5CDD4AA3BFD9393AABB029E /* LGAlertViewButton.m */; };
+		CCE47926A76246202592A7E6EDC96BC3 /* LGAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C808734DC038FDF69E1C55A9AA857D /* LGAlertView-dummy.m */; };
+		D345A4B11C07DA410D0D377A41F4EA44 /* LGAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0B67DF722099A9F10015E45B822C3C /* LGAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C55FA7D32E895A26DCC6786CFCE00F /* LGAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE637D039FB82AD2FF1C797BFB6029A /* LGAlertViewCell.m */; };
+		D945C3B9606152292B6AFF004D97BA87 /* LGAlertViewButtonProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B631A26F0FD53C644B5686D05E67A /* LGAlertViewButtonProperties.m */; };
+		DA770B19AF7C2D1F934DE2A5CD6C617C /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC2C1C1C93858F1A6D63CD25738F558 /* TimeChunk.swift */; };
+		DFF1957B63D91AF9BDDE95C5F9B56CE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70195282A0BC50817F3C545339405B06 /* Constants.swift */; };
+		E3C5E05181344C594277AAD5E5541433 /* LGAlertViewShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 083396009FBADF1CC76ECCEF3BFB57BE /* LGAlertViewShadowView.m */; };
+		E824E5686FA7E8303C4601097FBAC23F /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13156AB3071320FDBFFA748FE9130519 /* JTCalendarProtocols.swift */; };
+		EED12DA3B3BD6B6598A327DEF7D28817 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8282D9CD65EFA189DD439F970195307E /* Integer+DateTools.swift */; };
+		EF8A83F94EDB6C7C42F36FFF618D0526 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC99B944FC6AC5A994B0E6FBE8A1C0 /* Date+Components.swift */; };
+		F28873461E01F57EAC139896C20255DF /* LGAlertViewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F30BB22CDE31368C9A38E35DFF545249 /* LGAlertViewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6F00AB9C7083ECE4A27E066EE47D068 /* LGAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBCEA1163E2A5905504D14161D9F8E8 /* LGAlertViewController.m */; };
+		F7F8FE98FBE2455E87F7E41D20FA4194 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D33AAFFCC8389960EDA17019F0558 /* CalendarEnums.swift */; };
+		FBD8DDE10C7019F8190CE2795396F38A /* UIWindow+LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08CFF283654DCEF97B429CC8B2D6B7 /* UIWindow+LGAlertView.m */; };
+		FDF098C5A315FD1151444BBCE59EFE29 /* LGAlertViewWindowsObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = F01711F2A120D8A6931ECD2383F6EA8C /* LGAlertViewWindowsObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1689779B1ABFD6586C76E20297224D /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3D13E950FEF8137F85A1EF8D0BE54 /* JTAppleCalendar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0033ED8191E3C99DB743C2A839D8EAAF /* PBXContainerItemProxy */ = {
+		0A9F7B85EA72D7162A07A1E7BC294148 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A140B679D8F469A8D95AACE9FEEAFD6;
 			remoteInfo = LGAlertView;
 		};
-		958C8D8BF44449894BD19722975481F6 /* PBXContainerItemProxy */ = {
+		7417D9FAB37557D2A6B60F1A1DB94187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89CFD99B895BCC6E8EDC2F95A03500C;
+			remoteInfo = DateToolsSwift;
+		};
+		BD59B53F0404A8B29CCDB77876385883 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -77,77 +103,108 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07178860D4BE34586D150EB408D2D36A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E96A56AB35B8ED712E7C13364CE10EA /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
-		0EB8B1DC96E5FB89BC49E2CEF05EC6B5 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
-		0F00637FEC7B98AF8F232BBE41386FBD /* LGAlertViewShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShared.h; path = LGAlertView/LGAlertViewShared.h; sourceTree = "<group>"; };
-		139F9CBCDF1963B8230C0748A0729460 /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
-		1C42A398A79712E6ED50E91455DE6A2C /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
-		2BCDE81D8A1CA7B36DC6DBBC897BCD16 /* LGAlertViewWindowsObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowsObserver.h; path = LGAlertView/LGAlertViewWindowsObserver.h; sourceTree = "<group>"; };
-		389E2B326DAB6382FDA7BE0D40CB43C2 /* LGAlertViewTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewTextField.m; path = LGAlertView/LGAlertViewTextField.m; sourceTree = "<group>"; };
-		3AC545746AEC494C00E16CAC94DA0167 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
-		3F21094C3F08E83D47E95CBCCC657330 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
-		4107D03AAB5821267C7E7B32452E4B1B /* LGAlertViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewCell.h; path = LGAlertView/LGAlertViewCell.h; sourceTree = "<group>"; };
+		00951EE69AA820FDAC56307F479FC12A /* DateToolsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateToolsSwift-dummy.m"; sourceTree = "<group>"; };
+		01632E5BF87684ADB4F3F8461556A7C2 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		0167090200490C6C3B0B2DE20995FF1B /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateToolsSwift.framework; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0359F0357BA1417B45C7B5DEFD09E9FA /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateToolsSwift/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		05C808734DC038FDF69E1C55A9AA857D /* LGAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGAlertView-dummy.m"; sourceTree = "<group>"; };
+		083396009FBADF1CC76ECCEF3BFB57BE /* LGAlertViewShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewShadowView.m; path = LGAlertView/LGAlertViewShadowView.m; sourceTree = "<group>"; };
+		08D4E38995A4AAA44296A5948A51E4BC /* DateToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateToolsSwift.xcconfig; sourceTree = "<group>"; };
+		09E927713F7F88DEFB2C5D550EB43BCE /* LGAlertViewTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewTextField.h; path = LGAlertView/LGAlertViewTextField.h; sourceTree = "<group>"; };
+		1040499BB57ECD653A2D1841EB3046D0 /* LGAlertViewTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewTextField.m; path = LGAlertView/LGAlertViewTextField.m; sourceTree = "<group>"; };
+		1083B11EAD82EBC2B353352B8E288E1B /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = DateToolsSwift/DateTools/Enums.swift; sourceTree = "<group>"; };
+		10F48A01208AE7388A3A9B71CF15CBCD /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
+		13156AB3071320FDBFFA748FE9130519 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		136FBE2FA8916361E12053C31F462852 /* Date+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Bundle.swift"; path = "DateToolsSwift/DateTools/Date+Bundle.swift"; sourceTree = "<group>"; };
+		15EAE7FCF04ED638E621B3BD4D5F3488 /* LGAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGAlertView.modulemap; sourceTree = "<group>"; };
+		172286DD11B5A1D1467005F80CD7C462 /* LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertView.h; path = LGAlertView/LGAlertView.h; sourceTree = "<group>"; };
+		19EF1537BAE3936429ED74BC7E52AFB1 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		1AF368F4A1219AF4FC16957EA6EB74DC /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		1D783814F23550B3E1C6B819926F6443 /* Date+Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "DateToolsSwift/DateTools/Date+Format.swift"; sourceTree = "<group>"; };
+		1D8B631A26F0FD53C644B5686D05E67A /* LGAlertViewButtonProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButtonProperties.m; path = LGAlertView/LGAlertViewButtonProperties.m; sourceTree = "<group>"; };
+		209DE3D61971C18296FDBF7F6E31D849 /* LGAlertViewHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewHelper.m; path = LGAlertView/LGAlertViewHelper.m; sourceTree = "<group>"; };
+		272C54F26AF66D0AF23395BD6577F48F /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
+		2788B71B2BC26EFDC7524E98C19B3654 /* LGAlertViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewHelper.h; path = LGAlertView/LGAlertViewHelper.h; sourceTree = "<group>"; };
+		2D6A1E615EF54B9020B9240218606804 /* LGAlertViewWindowContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowContainer.m; path = LGAlertView/LGAlertViewWindowContainer.m; sourceTree = "<group>"; };
+		2FEC3EE230B4B3F89DABD4AF211599A9 /* Date+Manipulations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Manipulations.swift"; path = "DateToolsSwift/DateTools/Date+Manipulations.swift"; sourceTree = "<group>"; };
+		33F0AE454D53F834BF29AF12D413432D /* LGAlertViewShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShadowView.h; path = LGAlertView/LGAlertViewShadowView.h; sourceTree = "<group>"; };
+		3489F38D6B131D76C2989DAA2085D1C9 /* LGAlertViewWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindow.m; path = LGAlertView/LGAlertViewWindow.m; sourceTree = "<group>"; };
+		34C71BE59226364CEE326F1E6D261886 /* LGAlertViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewCell.h; path = LGAlertView/LGAlertViewCell.h; sourceTree = "<group>"; };
+		371F97A6C21CB20C9B7691B1885FA066 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		3747A60D72FBB5BB9D4123F09F7AB421 /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
+		3A0B67DF722099A9F10015E45B822C3C /* LGAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGAlertView-umbrella.h"; sourceTree = "<group>"; };
+		3B15E4FEBDF47B598EBD3686114DB588 /* LGAlertViewShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShared.h; path = LGAlertView/LGAlertViewShared.h; sourceTree = "<group>"; };
+		3DD3D13E950FEF8137F85A1EF8D0BE54 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
 		4291196F005EF43922C8510CB9A6EA49 /* Pods-ActionSheetCalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionSheetCalendarPicker.release.xcconfig"; sourceTree = "<group>"; };
 		485212BEF0F1EF2DA38AF925B922BEEB /* Pods-ActionSheetCalendarPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionSheetCalendarPicker-umbrella.h"; sourceTree = "<group>"; };
 		4BE3B6599C548C79EAAE342C6DEDB932 /* Pods-ActionSheetCalendarPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionSheetCalendarPicker-frameworks.sh"; sourceTree = "<group>"; };
-		52667E2AE20D47F75E0C1C834F25B83C /* LGAlertViewTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewTextField.h; path = LGAlertView/LGAlertViewTextField.h; sourceTree = "<group>"; };
-		53EEA11A85382B15D6B2F08917F18BEC /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		4D50F2F135FAB788659222DA7904FE71 /* Pods_ActionSheetCalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionSheetCalendarPicker.framework; path = "Pods-ActionSheetCalendarPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B11773EB909115884652ABDC28B1A /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		520EA715B4CBC8B2278841F33AF5F237 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
+		5380265EEEB41BDC81F38B88F2BC2F38 /* Date+Inits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Inits.swift"; path = "DateToolsSwift/DateTools/Date+Inits.swift"; sourceTree = "<group>"; };
+		5402AC75D58FFD73E8B5BB9EA83BED40 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		55167AF6FA3C2405F5D972210FCCB76B /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = DateToolsSwift/DateTools/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		56C941B3A64DFCF0C3AF9313E45543D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5773B3A3084EA427639AE88D472F0615 /* Pods-ActionSheetCalendarPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionSheetCalendarPicker-resources.sh"; sourceTree = "<group>"; };
-		5B3299BA159AA98A9269FECFCD27AB14 /* LGAlertViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewHelper.h; path = LGAlertView/LGAlertViewHelper.h; sourceTree = "<group>"; };
-		5FD3BE14C2192A05B77291E051406654 /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
-		612C220E6BA13EB036EF9E36418E7B44 /* LGAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGAlertView.xcconfig; sourceTree = "<group>"; };
-		62023F8E5DD98EBAD3DEA9A63BCDFC86 /* LGAlertViewWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindow.m; path = LGAlertView/LGAlertViewWindow.m; sourceTree = "<group>"; };
-		6227E1E61C18DB32D92F9CE05D758D2F /* LGAlertViewButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButton.m; path = LGAlertView/LGAlertViewButton.m; sourceTree = "<group>"; };
+		5972635E462F484F2CDE779F640F1D8D /* LGAlertViewWindowsObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowsObserver.m; path = LGAlertView/LGAlertViewWindowsObserver.m; sourceTree = "<group>"; };
+		5A47690C9A86B506B6AD9684D496EB23 /* LGAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGAlertView.framework; path = LGAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD73D766AB53848230B9931AEE0CC4E /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
+		5DBCEA1163E2A5905504D14161D9F8E8 /* LGAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewController.m; path = LGAlertView/LGAlertViewController.m; sourceTree = "<group>"; };
+		630D01C914925FD4800A93EE0A19DB88 /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		676D029ADC639F2C0520AE618FB69315 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
-		6A0EAC2F69EF9096A247A4A982B5C51D /* Pods_ActionSheetCalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionSheetCalendarPicker.framework; path = "Pods-ActionSheetCalendarPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BC3745A2A5AABC6A710C5075023A072 /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
-		70C6AF8AE4A486751023A740D4422938 /* LGAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGAlertView.modulemap; sourceTree = "<group>"; };
-		73603E51445F0C25C12F4C10FA6455D7 /* UIWindow+LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+LGAlertView.m"; path = "LGAlertView/UIWindow+LGAlertView.m"; sourceTree = "<group>"; };
-		763CA9810FAAB999F9E1433E7BA35F51 /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		6C5DE37D6F12715F9D2921213881055E /* LGAlertViewWindowContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowContainer.h; path = LGAlertView/LGAlertViewWindowContainer.h; sourceTree = "<group>"; };
+		6D6B5D7E504ADD5A174D7AC2AC02BF24 /* DateToolsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateToolsSwift-prefix.pch"; sourceTree = "<group>"; };
+		6F2C6525D4B5AF4012B48A96EA735CCF /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70195282A0BC50817F3C545339405B06 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DateToolsSwift/DateTools/Constants.swift; sourceTree = "<group>"; };
+		75716791C798EFE7FB38B3C0BA5B2827 /* LGAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewController.h; path = LGAlertView/LGAlertViewController.h; sourceTree = "<group>"; };
 		79121B5E39601441E1EB1D3E2924D7F8 /* Pods-ActionSheetCalendarPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionSheetCalendarPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79236937C3F5FAB4C542FCA1B57C5B3E /* LGAlertViewShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShadowView.h; path = LGAlertView/LGAlertViewShadowView.h; sourceTree = "<group>"; };
-		7C85FDD9470C4B04B8D2787950459722 /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
-		7DD038F8CBE0331177EE81EA16046B12 /* LGAlertViewWindowContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowContainer.h; path = LGAlertView/LGAlertViewWindowContainer.h; sourceTree = "<group>"; };
-		83FC11F91E0CFDC0811D7DC489170CA7 /* LGAlertViewHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewHelper.m; path = LGAlertView/LGAlertViewHelper.m; sourceTree = "<group>"; };
-		85C957F9DC9AC387A35366A80ED2C419 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
-		87B25D8383B383AE1DDE635BACF31414 /* LGAlertViewButtonProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButtonProperties.h; path = LGAlertView/LGAlertViewButtonProperties.h; sourceTree = "<group>"; };
-		90BAB1CD0C3D4A2920F0A9498CCADCAF /* LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertView.m; path = LGAlertView/LGAlertView.m; sourceTree = "<group>"; };
+		7DA0C1C29FC3B71641AC041DC650F412 /* Date+Comparators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Comparators.swift"; path = "DateToolsSwift/DateTools/Date+Comparators.swift"; sourceTree = "<group>"; };
+		80EE7D29A7A5E9D278150C92DC4A6A0C /* Date+TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TimeAgo.swift"; path = "DateToolsSwift/DateTools/Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		8282D9CD65EFA189DD439F970195307E /* Integer+DateTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer+DateTools.swift"; path = "DateToolsSwift/DateTools/Integer+DateTools.swift"; sourceTree = "<group>"; };
+		82C343563530825CE072089FB627D379 /* DateToolsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateToolsSwift-umbrella.h"; sourceTree = "<group>"; };
+		82CBBED048EA8D26DA33F12330060C05 /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
+		86DC99B944FC6AC5A994B0E6FBE8A1C0 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "DateToolsSwift/DateTools/Date+Components.swift"; sourceTree = "<group>"; };
+		8A6330D94FC1F6FD561EFE63C2AF9193 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		8E3500378C283DFEA774C7C6400E7AF3 /* LGAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGAlertView.xcconfig; sourceTree = "<group>"; };
+		93A0CD6C2A82C6CA2DA9D38169284879 /* UIWindow+LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+LGAlertView.h"; path = "LGAlertView/UIWindow+LGAlertView.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		942624807627E2013AC7EEDAEA7FF828 /* Pods-ActionSheetCalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionSheetCalendarPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		94D7EA6D1C667F5A61C3F21E01786B41 /* LGAlertViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewCell.m; path = LGAlertView/LGAlertViewCell.m; sourceTree = "<group>"; };
-		9784100936D3B12CF6B8E1E4FB94DECA /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
-		999421AD28E77A118EB594A02D18BD66 /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
-		9DEF1873164566A3FC4AE76680657509 /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
-		9DFA8BB11504EE69C651E0D2E1552D90 /* UIWindow+LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+LGAlertView.h"; path = "LGAlertView/UIWindow+LGAlertView.h"; sourceTree = "<group>"; };
-		9F745B4C5D41C640E062795CF437F05A /* LGAlertViewShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewShadowView.m; path = LGAlertView/LGAlertViewShadowView.m; sourceTree = "<group>"; };
-		A3348C4F337516232F58B31F2ED88B06 /* LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertView.h; path = LGAlertView/LGAlertView.h; sourceTree = "<group>"; };
+		9580A43A2C8793F5FB0C53B66329BD14 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = DateToolsSwift/DateTools/TimePeriodChain.swift; sourceTree = "<group>"; };
+		99A5CCFD31ED74B533A6C6FBD27A48AA /* LGAlertViewButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButton.h; path = LGAlertView/LGAlertViewButton.h; sourceTree = "<group>"; };
+		9BE637D039FB82AD2FF1C797BFB6029A /* LGAlertViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewCell.m; path = LGAlertView/LGAlertViewCell.m; sourceTree = "<group>"; };
 		A36BD5CC9D2DE8FCA3D23503145D0AF4 /* Pods-ActionSheetCalendarPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionSheetCalendarPicker-dummy.m"; sourceTree = "<group>"; };
-		A99296FA30DE44C59D963CF0F480480B /* LGAlertViewWindowContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowContainer.m; path = LGAlertView/LGAlertViewWindowContainer.m; sourceTree = "<group>"; };
-		B03410877E780D361044B74EAF357256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B204CE1E6677FFCE65D019FA91B6D199 /* LGAlertViewButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButton.h; path = LGAlertView/LGAlertViewButton.h; sourceTree = "<group>"; };
-		B78E89DF9C71BB2D7933AF20A72534C2 /* LGAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGAlertView-umbrella.h"; sourceTree = "<group>"; };
-		B8783354C6DD7A50EA088A23844A4E7A /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		B165819B68CFBCBBCF1DB873D8FF2600 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = DateToolsSwift/DateTools/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		B34CDF55F5CDD4AA3BFD9393AABB029E /* LGAlertViewButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButton.m; path = LGAlertView/LGAlertViewButton.m; sourceTree = "<group>"; };
+		B4D91214CDC6F22D9899B1A912D7EF5C /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		B6B4FBA2FDDAD3BC90EF0F150FEAC827 /* DateToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DateToolsSwift.modulemap; sourceTree = "<group>"; };
+		B6FEB383E6AC0108221ADFA82B32A4A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B87D7E6D7666637140D1D055C4849E0C /* Pods-ActionSheetCalendarPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionSheetCalendarPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		BABB1B20EC9F81396CBFC7DA6A7B6252 /* LGAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGAlertView-prefix.pch"; sourceTree = "<group>"; };
 		BAD3B848D349A540B39EC045B81DD3AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBA8E2CED34DE5C6C582553EBC04C068 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
-		BE17BD147EDC7743435488822BE38ABA /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
-		C62A0D1AC3CAC300C0F84B2D7517E704 /* LGAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewController.m; path = LGAlertView/LGAlertViewController.m; sourceTree = "<group>"; };
-		CD91EBACE442F20D087170C939E7D7B4 /* LGAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGAlertView-prefix.pch"; sourceTree = "<group>"; };
-		DE92599C323BA36BFB7F7EFF1E8B38E4 /* LGAlertViewWindowsObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowsObserver.m; path = LGAlertView/LGAlertViewWindowsObserver.m; sourceTree = "<group>"; };
-		E0C93B29D5FE004ACFD75F1C9EB752B1 /* LGAlertViewButtonProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButtonProperties.m; path = LGAlertView/LGAlertViewButtonProperties.m; sourceTree = "<group>"; };
+		BCC2C1C1C93858F1A6D63CD25738F558 /* TimeChunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeChunk.swift; path = DateToolsSwift/DateTools/TimeChunk.swift; sourceTree = "<group>"; };
+		C1502F13F03EC5497570359FFEA11273 /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = DateToolsSwift/DateTools/TimePeriod.swift; sourceTree = "<group>"; };
+		CCB834E8F96D86527DC51AB8FBCAFB88 /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
+		CD08CFF283654DCEF97B429CC8B2D6B7 /* UIWindow+LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+LGAlertView.m"; path = "LGAlertView/UIWindow+LGAlertView.m"; sourceTree = "<group>"; };
+		CF00C2564D621A707AA9E413A312371A /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
+		DA4763D7CCD1A47061ADF69D6ECF5160 /* LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertView.m; path = LGAlertView/LGAlertView.m; sourceTree = "<group>"; };
+		DBEE862C598E6771AF4397EB286BF71D /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
 		E0F31AE675AD0CB5579D0E52B7FA0349 /* Pods-ActionSheetCalendarPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ActionSheetCalendarPicker.modulemap"; sourceTree = "<group>"; };
-		E85B024EB7F133502E1CB5BFD520A4F7 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
-		EC237660910CFAD2CB4E7D3D7F970EEE /* LGAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGAlertView-dummy.m"; sourceTree = "<group>"; };
-		ED3D19D21D6419D9D2B9FE9FA5890461 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE9CA6DCB064EB1995AC449AC3B3910 /* LGAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewController.h; path = LGAlertView/LGAlertViewController.h; sourceTree = "<group>"; };
-		F0E8B2CEB50AA693E9749127B182E9B5 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
-		F8473A656C5669E393FC0492DB340130 /* LGAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGAlertView.framework; path = LGAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDA9C8AAA3259C6A2D3B002A3817DDE8 /* LGAlertViewWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindow.h; path = LGAlertView/LGAlertViewWindow.h; sourceTree = "<group>"; };
+		E78D33AAFFCC8389960EDA17019F0558 /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
+		E973703F0A11A0317A38EC9974F6E01E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01711F2A120D8A6931ECD2383F6EA8C /* LGAlertViewWindowsObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowsObserver.h; path = LGAlertView/LGAlertViewWindowsObserver.h; sourceTree = "<group>"; };
+		F30BB22CDE31368C9A38E35DFF545249 /* LGAlertViewWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindow.h; path = LGAlertView/LGAlertViewWindow.h; sourceTree = "<group>"; };
+		FA090BB242002C3C036B21EE852B4485 /* LGAlertViewButtonProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButtonProperties.h; path = LGAlertView/LGAlertViewButtonProperties.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10ECCB92574400C7FDF378DF3205B7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FF27042FD7D36C8DF0130898F6DB91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F52A51717EA007CD32A41E453CDF459 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,11 +213,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6081DA49B33AD600DAB86B26B206E541 /* Frameworks */ = {
+		4E7CB1469B4DB358AD46F9E74D7D041C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26AB32E6164A086A8CB9978B7BF0A62 /* Foundation.framework in Frameworks */,
+				2518B47E0F11D166F5207B96C1EFB53B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,18 +232,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BC60F1ADF2DCB266F7EDEFA475DE27A /* Support Files */ = {
+		023B3D09910AD968106273178F3D0B0C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B03410877E780D361044B74EAF357256 /* Info.plist */,
-				70C6AF8AE4A486751023A740D4422938 /* LGAlertView.modulemap */,
-				612C220E6BA13EB036EF9E36418E7B44 /* LGAlertView.xcconfig */,
-				EC237660910CFAD2CB4E7D3D7F970EEE /* LGAlertView-dummy.m */,
-				CD91EBACE442F20D087170C939E7D7B4 /* LGAlertView-prefix.pch */,
-				B78E89DF9C71BB2D7933AF20A72534C2 /* LGAlertView-umbrella.h */,
+				B6FEB383E6AC0108221ADFA82B32A4A7 /* Info.plist */,
+				15EAE7FCF04ED638E621B3BD4D5F3488 /* LGAlertView.modulemap */,
+				8E3500378C283DFEA774C7C6400E7AF3 /* LGAlertView.xcconfig */,
+				05C808734DC038FDF69E1C55A9AA857D /* LGAlertView-dummy.m */,
+				BABB1B20EC9F81396CBFC7DA6A7B6252 /* LGAlertView-prefix.pch */,
+				3A0B67DF722099A9F10015E45B822C3C /* LGAlertView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LGAlertView";
+			sourceTree = "<group>";
+		};
+		0ACD8F4C58C579B99A1F68FBD46EF84F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E973703F0A11A0317A38EC9974F6E01E /* Info.plist */,
+				CF00C2564D621A707AA9E413A312371A /* JTAppleCalendar.modulemap */,
+				520EA715B4CBC8B2278841F33AF5F237 /* JTAppleCalendar.xcconfig */,
+				3DD3D13E950FEF8137F85A1EF8D0BE54 /* JTAppleCalendar-dummy.m */,
+				3747A60D72FBB5BB9D4123F09F7AB421 /* JTAppleCalendar-prefix.pch */,
+				82CBBED048EA8D26DA33F12330060C05 /* JTAppleCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTAppleCalendar";
+			sourceTree = "<group>";
+		};
+		1505710DA280A67464C709F309DD46D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B4FBA2FDDAD3BC90EF0F150FEAC827 /* DateToolsSwift.modulemap */,
+				08D4E38995A4AAA44296A5948A51E4BC /* DateToolsSwift.xcconfig */,
+				00951EE69AA820FDAC56307F479FC12A /* DateToolsSwift-dummy.m */,
+				6D6B5D7E504ADD5A174D7AC2AC02BF24 /* DateToolsSwift-prefix.pch */,
+				82C343563530825CE072089FB627D379 /* DateToolsSwift-umbrella.h */,
+				56C941B3A64DFCF0C3AF9313E45543D0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateToolsSwift";
+			sourceTree = "<group>";
+		};
+		258BD45F970E36387EA9CCD2374D17EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0167090200490C6C3B0B2DE20995FF1B /* DateToolsSwift.framework */,
+				6F2C6525D4B5AF4012B48A96EA735CCF /* JTAppleCalendar.framework */,
+				5A47690C9A86B506B6AD9684D496EB23 /* LGAlertView.framework */,
+				4D50F2F135FAB788659222DA7904FE71 /* Pods_ActionSheetCalendarPicker.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4786EA14AD158514A70A0768E0ABF1AD /* Targets Support Files */ = {
@@ -197,29 +293,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		47DCBC0FCD606B2B30BDF6042B8B5062 /* JTAppleCalendar */ = {
+		54C8E08B851854EA1E894FCA0773A2BD /* JTAppleCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				1C42A398A79712E6ED50E91455DE6A2C /* CalendarEnums.swift */,
-				F0E8B2CEB50AA693E9749127B182E9B5 /* CalendarStructs.swift */,
-				B8783354C6DD7A50EA088A23844A4E7A /* GlobalFunctionsAndExtensions.swift */,
-				6BC3745A2A5AABC6A710C5075023A072 /* InternalActionFunctions.swift */,
-				999421AD28E77A118EB594A02D18BD66 /* InternalQueryFunctions.swift */,
-				9784100936D3B12CF6B8E1E4FB94DECA /* JTAppleCalendarDelegateProtocol.swift */,
-				676D029ADC639F2C0520AE618FB69315 /* JTAppleCalendarLayout.swift */,
-				BBA8E2CED34DE5C6C582553EBC04C068 /* JTAppleCalendarLayoutProtocol.swift */,
-				139F9CBCDF1963B8230C0748A0729460 /* JTAppleCalendarVariables.swift */,
-				BE17BD147EDC7743435488822BE38ABA /* JTAppleCalendarView.swift */,
-				763CA9810FAAB999F9E1433E7BA35F51 /* JTAppleCell.swift */,
-				3AC545746AEC494C00E16CAC94DA0167 /* JTAppleCollectionReusableView.swift */,
-				53EEA11A85382B15D6B2F08917F18BEC /* JTCalendarProtocols.swift */,
-				E85B024EB7F133502E1CB5BFD520A4F7 /* UICollectionViewDelegates.swift */,
-				9DEF1873164566A3FC4AE76680657509 /* UIScrollViewDelegates.swift */,
-				0EB8B1DC96E5FB89BC49E2CEF05EC6B5 /* UserInteractionFunctions.swift */,
-				E114F786B08AB8971440EA5FFE0208C7 /* Support Files */,
+				E78D33AAFFCC8389960EDA17019F0558 /* CalendarEnums.swift */,
+				5BD73D766AB53848230B9931AEE0CC4E /* CalendarStructs.swift */,
+				01632E5BF87684ADB4F3F8461556A7C2 /* GlobalFunctionsAndExtensions.swift */,
+				630D01C914925FD4800A93EE0A19DB88 /* InternalActionFunctions.swift */,
+				CCB834E8F96D86527DC51AB8FBCAFB88 /* InternalQueryFunctions.swift */,
+				B4D91214CDC6F22D9899B1A912D7EF5C /* JTAppleCalendarDelegateProtocol.swift */,
+				DBEE862C598E6771AF4397EB286BF71D /* JTAppleCalendarLayout.swift */,
+				19EF1537BAE3936429ED74BC7E52AFB1 /* JTAppleCalendarLayoutProtocol.swift */,
+				10F48A01208AE7388A3A9B71CF15CBCD /* JTAppleCalendarVariables.swift */,
+				371F97A6C21CB20C9B7691B1885FA066 /* JTAppleCalendarView.swift */,
+				1AF368F4A1219AF4FC16957EA6EB74DC /* JTAppleCell.swift */,
+				4D9B11773EB909115884652ABDC28B1A /* JTAppleCollectionReusableView.swift */,
+				13156AB3071320FDBFFA748FE9130519 /* JTCalendarProtocols.swift */,
+				8A6330D94FC1F6FD561EFE63C2AF9193 /* UICollectionViewDelegates.swift */,
+				272C54F26AF66D0AF23395BD6577F48F /* UIScrollViewDelegates.swift */,
+				5402AC75D58FFD73E8B5BB9EA83BED40 /* UserInteractionFunctions.swift */,
+				0ACD8F4C58C579B99A1F68FBD46EF84F /* Support Files */,
 			);
 			name = JTAppleCalendar;
 			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		6CFFBC3F9D721BF1A379E81ABA2816E2 /* LGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				172286DD11B5A1D1467005F80CD7C462 /* LGAlertView.h */,
+				DA4763D7CCD1A47061ADF69D6ECF5160 /* LGAlertView.m */,
+				99A5CCFD31ED74B533A6C6FBD27A48AA /* LGAlertViewButton.h */,
+				B34CDF55F5CDD4AA3BFD9393AABB029E /* LGAlertViewButton.m */,
+				FA090BB242002C3C036B21EE852B4485 /* LGAlertViewButtonProperties.h */,
+				1D8B631A26F0FD53C644B5686D05E67A /* LGAlertViewButtonProperties.m */,
+				34C71BE59226364CEE326F1E6D261886 /* LGAlertViewCell.h */,
+				9BE637D039FB82AD2FF1C797BFB6029A /* LGAlertViewCell.m */,
+				75716791C798EFE7FB38B3C0BA5B2827 /* LGAlertViewController.h */,
+				5DBCEA1163E2A5905504D14161D9F8E8 /* LGAlertViewController.m */,
+				2788B71B2BC26EFDC7524E98C19B3654 /* LGAlertViewHelper.h */,
+				209DE3D61971C18296FDBF7F6E31D849 /* LGAlertViewHelper.m */,
+				33F0AE454D53F834BF29AF12D413432D /* LGAlertViewShadowView.h */,
+				083396009FBADF1CC76ECCEF3BFB57BE /* LGAlertViewShadowView.m */,
+				3B15E4FEBDF47B598EBD3686114DB588 /* LGAlertViewShared.h */,
+				09E927713F7F88DEFB2C5D550EB43BCE /* LGAlertViewTextField.h */,
+				1040499BB57ECD653A2D1841EB3046D0 /* LGAlertViewTextField.m */,
+				F30BB22CDE31368C9A38E35DFF545249 /* LGAlertViewWindow.h */,
+				3489F38D6B131D76C2989DAA2085D1C9 /* LGAlertViewWindow.m */,
+				6C5DE37D6F12715F9D2921213881055E /* LGAlertViewWindowContainer.h */,
+				2D6A1E615EF54B9020B9240218606804 /* LGAlertViewWindowContainer.m */,
+				F01711F2A120D8A6931ECD2383F6EA8C /* LGAlertViewWindowsObserver.h */,
+				5972635E462F484F2CDE779F640F1D8D /* LGAlertViewWindowsObserver.m */,
+				93A0CD6C2A82C6CA2DA9D38169284879 /* UIWindow+LGAlertView.h */,
+				CD08CFF283654DCEF97B429CC8B2D6B7 /* UIWindow+LGAlertView.m */,
+				023B3D09910AD968106273178F3D0B0C /* Support Files */,
+			);
+			name = LGAlertView;
+			path = LGAlertView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -227,10 +357,35 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F1EF151A97CA9EB787DD9913787F8CED /* Pods */,
-				CC06CF5FD55EF1876597A357107B0E0B /* Products */,
+				D1B7ED0667C7E69600B921F185E6763D /* Pods */,
+				258BD45F970E36387EA9CCD2374D17EA /* Products */,
 				4786EA14AD158514A70A0768E0ABF1AD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		96EFBF084C545C6089B829A3196EB148 /* DateToolsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				70195282A0BC50817F3C545339405B06 /* Constants.swift */,
+				136FBE2FA8916361E12053C31F462852 /* Date+Bundle.swift */,
+				7DA0C1C29FC3B71641AC041DC650F412 /* Date+Comparators.swift */,
+				86DC99B944FC6AC5A994B0E6FBE8A1C0 /* Date+Components.swift */,
+				1D783814F23550B3E1C6B819926F6443 /* Date+Format.swift */,
+				5380265EEEB41BDC81F38B88F2BC2F38 /* Date+Inits.swift */,
+				2FEC3EE230B4B3F89DABD4AF211599A9 /* Date+Manipulations.swift */,
+				80EE7D29A7A5E9D278150C92DC4A6A0C /* Date+TimeAgo.swift */,
+				1083B11EAD82EBC2B353352B8E288E1B /* Enums.swift */,
+				8282D9CD65EFA189DD439F970195307E /* Integer+DateTools.swift */,
+				BCC2C1C1C93858F1A6D63CD25738F558 /* TimeChunk.swift */,
+				C1502F13F03EC5497570359FFEA11273 /* TimePeriod.swift */,
+				9580A43A2C8793F5FB0C53B66329BD14 /* TimePeriodChain.swift */,
+				B165819B68CFBCBBCF1DB873D8FF2600 /* TimePeriodCollection.swift */,
+				55167AF6FA3C2405F5D972210FCCB76B /* TimePeriodGroup.swift */,
+				C539DE53B34BEAAAD95B82B71840A1BE /* Resources */,
+				1505710DA280A67464C709F309DD46D8 /* Support Files */,
+			);
+			name = DateToolsSwift;
+			path = DateToolsSwift;
 			sourceTree = "<group>";
 		};
 		A54E3F29E69D3BFB4D2F9E777DD1A33E /* Pods-ActionSheetCalendarPicker */ = {
@@ -259,14 +414,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC06CF5FD55EF1876597A357107B0E0B /* Products */ = {
+		C539DE53B34BEAAAD95B82B71840A1BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ED3D19D21D6419D9D2B9FE9FA5890461 /* JTAppleCalendar.framework */,
-				F8473A656C5669E393FC0492DB340130 /* LGAlertView.framework */,
-				6A0EAC2F69EF9096A247A4A982B5C51D /* Pods_ActionSheetCalendarPicker.framework */,
+				0359F0357BA1417B45C7B5DEFD09E9FA /* DateTools.bundle */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1B7ED0667C7E69600B921F185E6763D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96EFBF084C545C6089B829A3196EB148 /* DateToolsSwift */,
+				54C8E08B851854EA1E894FCA0773A2BD /* JTAppleCalendar */,
+				6CFFBC3F9D721BF1A379E81ABA2816E2 /* LGAlertView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -277,71 +440,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E114F786B08AB8971440EA5FFE0208C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				07178860D4BE34586D150EB408D2D36A /* Info.plist */,
-				7C85FDD9470C4B04B8D2787950459722 /* JTAppleCalendar.modulemap */,
-				3F21094C3F08E83D47E95CBCCC657330 /* JTAppleCalendar.xcconfig */,
-				85C957F9DC9AC387A35366A80ED2C419 /* JTAppleCalendar-dummy.m */,
-				5FD3BE14C2192A05B77291E051406654 /* JTAppleCalendar-prefix.pch */,
-				0E96A56AB35B8ED712E7C13364CE10EA /* JTAppleCalendar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JTAppleCalendar";
-			sourceTree = "<group>";
-		};
-		F1EF151A97CA9EB787DD9913787F8CED /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				47DCBC0FCD606B2B30BDF6042B8B5062 /* JTAppleCalendar */,
-				F4FDA1B55F414F54F06BF7008A6219F1 /* LGAlertView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F4FDA1B55F414F54F06BF7008A6219F1 /* LGAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				A3348C4F337516232F58B31F2ED88B06 /* LGAlertView.h */,
-				90BAB1CD0C3D4A2920F0A9498CCADCAF /* LGAlertView.m */,
-				B204CE1E6677FFCE65D019FA91B6D199 /* LGAlertViewButton.h */,
-				6227E1E61C18DB32D92F9CE05D758D2F /* LGAlertViewButton.m */,
-				87B25D8383B383AE1DDE635BACF31414 /* LGAlertViewButtonProperties.h */,
-				E0C93B29D5FE004ACFD75F1C9EB752B1 /* LGAlertViewButtonProperties.m */,
-				4107D03AAB5821267C7E7B32452E4B1B /* LGAlertViewCell.h */,
-				94D7EA6D1C667F5A61C3F21E01786B41 /* LGAlertViewCell.m */,
-				EDE9CA6DCB064EB1995AC449AC3B3910 /* LGAlertViewController.h */,
-				C62A0D1AC3CAC300C0F84B2D7517E704 /* LGAlertViewController.m */,
-				5B3299BA159AA98A9269FECFCD27AB14 /* LGAlertViewHelper.h */,
-				83FC11F91E0CFDC0811D7DC489170CA7 /* LGAlertViewHelper.m */,
-				79236937C3F5FAB4C542FCA1B57C5B3E /* LGAlertViewShadowView.h */,
-				9F745B4C5D41C640E062795CF437F05A /* LGAlertViewShadowView.m */,
-				0F00637FEC7B98AF8F232BBE41386FBD /* LGAlertViewShared.h */,
-				52667E2AE20D47F75E0C1C834F25B83C /* LGAlertViewTextField.h */,
-				389E2B326DAB6382FDA7BE0D40CB43C2 /* LGAlertViewTextField.m */,
-				FDA9C8AAA3259C6A2D3B002A3817DDE8 /* LGAlertViewWindow.h */,
-				62023F8E5DD98EBAD3DEA9A63BCDFC86 /* LGAlertViewWindow.m */,
-				7DD038F8CBE0331177EE81EA16046B12 /* LGAlertViewWindowContainer.h */,
-				A99296FA30DE44C59D963CF0F480480B /* LGAlertViewWindowContainer.m */,
-				2BCDE81D8A1CA7B36DC6DBBC897BCD16 /* LGAlertViewWindowsObserver.h */,
-				DE92599C323BA36BFB7F7EFF1E8B38E4 /* LGAlertViewWindowsObserver.m */,
-				9DFA8BB11504EE69C651E0D2E1552D90 /* UIWindow+LGAlertView.h */,
-				73603E51445F0C25C12F4C10FA6455D7 /* UIWindow+LGAlertView.m */,
-				2BC60F1ADF2DCB266F7EDEFA475DE27A /* Support Files */,
-			);
-			name = LGAlertView;
-			path = LGAlertView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11CA44249C09FA0961D50D53A59D7ABF /* Headers */ = {
+		0B24469DA060E445C2175588E9E4900E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89E0E97FAFAF04B90DE4DEB7A27D654 /* Pods-ActionSheetCalendarPicker-umbrella.h in Headers */,
+				2BC39A33E21B7A8820E4B2FE48723FB5 /* DateToolsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A742601C136E262839B53147B42EC29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D17799A2956EA6E8676F97292644D /* Pods-ActionSheetCalendarPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +505,7 @@
 			);
 			name = JTAppleCalendar;
 			productName = JTAppleCalendar;
-			productReference = ED3D19D21D6419D9D2B9FE9FA5890461 /* JTAppleCalendar.framework */;
+			productReference = 6F2C6525D4B5AF4012B48A96EA735CCF /* JTAppleCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A140B679D8F469A8D95AACE9FEEAFD6 /* LGAlertView */ = {
@@ -408,26 +522,45 @@
 			);
 			name = LGAlertView;
 			productName = LGAlertView;
-			productReference = F8473A656C5669E393FC0492DB340130 /* LGAlertView.framework */;
+			productReference = 5A47690C9A86B506B6AD9684D496EB23 /* LGAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E60AA591A633F76052795B91C9F8DE12 /* Pods-ActionSheetCalendarPicker */ = {
+		D76164CCE58B9C74157685F45F2E6AA5 /* Pods-ActionSheetCalendarPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C61D1DC09E55ADF59299BBC2E1DAFF9B /* Build configuration list for PBXNativeTarget "Pods-ActionSheetCalendarPicker" */;
+			buildConfigurationList = DC4B130DA299D1A7BE7F3D995C9C0E61 /* Build configuration list for PBXNativeTarget "Pods-ActionSheetCalendarPicker" */;
 			buildPhases = (
-				AA59D25419DEF7280C77C867A4F60B93 /* Sources */,
-				6081DA49B33AD600DAB86B26B206E541 /* Frameworks */,
-				11CA44249C09FA0961D50D53A59D7ABF /* Headers */,
+				A1097EE00EAA23F928D668B7FF5A4A7E /* Sources */,
+				10ECCB92574400C7FDF378DF3205B7D1 /* Frameworks */,
+				4A742601C136E262839B53147B42EC29 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04CBD8F645C361BE427FAA6FA8C83FFB /* PBXTargetDependency */,
-				BCE08A561617F3B3095846392F294C4B /* PBXTargetDependency */,
+				BA87804F6B9DEB842BE49813B3A4D283 /* PBXTargetDependency */,
+				F351915E07F699A9F107BF37591CF08C /* PBXTargetDependency */,
+				3A5A9EF7576570F531E9957406530720 /* PBXTargetDependency */,
 			);
 			name = "Pods-ActionSheetCalendarPicker";
 			productName = "Pods-ActionSheetCalendarPicker";
-			productReference = 6A0EAC2F69EF9096A247A4A982B5C51D /* Pods_ActionSheetCalendarPicker.framework */;
+			productReference = 4D50F2F135FAB788659222DA7904FE71 /* Pods_ActionSheetCalendarPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E895CDDD9BD03948FD60B879EF8E23F5 /* Build configuration list for PBXNativeTarget "DateToolsSwift" */;
+			buildPhases = (
+				CC0412E536356508AEFA17702BF187E8 /* Sources */,
+				4E7CB1469B4DB358AD46F9E74D7D041C /* Frameworks */,
+				18AFA8BB5E5AE0C4F937C255362A0DD5 /* Resources */,
+				0B24469DA060E445C2175588E9E4900E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateToolsSwift;
+			productName = DateToolsSwift;
+			productReference = 0167090200490C6C3B0B2DE20995FF1B /* DateToolsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -447,16 +580,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CC06CF5FD55EF1876597A357107B0E0B /* Products */;
+			productRefGroup = 258BD45F970E36387EA9CCD2374D17EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */,
 				4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */,
 				8A140B679D8F469A8D95AACE9FEEAFD6 /* LGAlertView */,
-				E60AA591A633F76052795B91C9F8DE12 /* Pods-ActionSheetCalendarPicker */,
+				D76164CCE58B9C74157685F45F2E6AA5 /* Pods-ActionSheetCalendarPicker */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AFA8BB5E5AE0C4F937C255362A0DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BA12E6FF13BCD3D8129522B3BC6ACF /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33DCEC5BCD77C65BD68A3D5AEA9ED42B /* Sources */ = {
@@ -503,35 +648,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA59D25419DEF7280C77C867A4F60B93 /* Sources */ = {
+		A1097EE00EAA23F928D668B7FF5A4A7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1647000647359D4437E641E5074623 /* Pods-ActionSheetCalendarPicker-dummy.m in Sources */,
+				59A22622F79502600F0C9D9ADB1610E2 /* Pods-ActionSheetCalendarPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0412E536356508AEFA17702BF187E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF1957B63D91AF9BDDE95C5F9B56CE6 /* Constants.swift in Sources */,
+				99E3BEA8FC5191DC18AF7BF32A6E9086 /* Date+Bundle.swift in Sources */,
+				64C9F4903A26546EA0BB3B3A899CF915 /* Date+Comparators.swift in Sources */,
+				EF8A83F94EDB6C7C42F36FFF618D0526 /* Date+Components.swift in Sources */,
+				4E5E70335AC94377291526163247B72A /* Date+Format.swift in Sources */,
+				4AEA03365E6DFD3203288595698AB8CC /* Date+Inits.swift in Sources */,
+				5E516EEEB94BB900187FDFA3CC2E9FB4 /* Date+Manipulations.swift in Sources */,
+				6E7D1D65F26E071B668B6C38CE547C8E /* Date+TimeAgo.swift in Sources */,
+				563A18A4003D535DE5E75AA05B342ADB /* DateToolsSwift-dummy.m in Sources */,
+				AAB052ACD1C2F5CD61EA09A67BE5938F /* Enums.swift in Sources */,
+				EED12DA3B3BD6B6598A327DEF7D28817 /* Integer+DateTools.swift in Sources */,
+				DA770B19AF7C2D1F934DE2A5CD6C617C /* TimeChunk.swift in Sources */,
+				B0A382528DC015EFD81F39C35D669F8E /* TimePeriod.swift in Sources */,
+				6A0507497F0419B6E24146DB4DD3168A /* TimePeriodChain.swift in Sources */,
+				5C97B56B7994F1393537B4488ADE0FB3 /* TimePeriodCollection.swift in Sources */,
+				39896AD7E2573C35F4A82C5EB8F04655 /* TimePeriodGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04CBD8F645C361BE427FAA6FA8C83FFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JTAppleCalendar;
-			target = 4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */;
-			targetProxy = 958C8D8BF44449894BD19722975481F6 /* PBXContainerItemProxy */;
-		};
-		BCE08A561617F3B3095846392F294C4B /* PBXTargetDependency */ = {
+		3A5A9EF7576570F531E9957406530720 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGAlertView;
 			target = 8A140B679D8F469A8D95AACE9FEEAFD6 /* LGAlertView */;
-			targetProxy = 0033ED8191E3C99DB743C2A839D8EAAF /* PBXContainerItemProxy */;
+			targetProxy = 0A9F7B85EA72D7162A07A1E7BC294148 /* PBXContainerItemProxy */;
+		};
+		BA87804F6B9DEB842BE49813B3A4D283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateToolsSwift;
+			target = E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */;
+			targetProxy = 7417D9FAB37557D2A6B60F1A1DB94187 /* PBXContainerItemProxy */;
+		};
+		F351915E07F699A9F107BF37591CF08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = 4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */;
+			targetProxy = BD59B53F0404A8B29CCDB77876385883 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		016E79D068DDAB3F505586BE7E13C514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D4E38995A4AAA44296A5948A51E4BC /* DateToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateToolsSwift/DateToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateToolsSwift/DateToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = DateToolsSwift;
+				PRODUCT_NAME = DateToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		10F73650E4E330D5FCDDE5F848DF4C6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 612C220E6BA13EB036EF9E36418E7B44 /* LGAlertView.xcconfig */;
+			baseConfigurationReference = 8E3500378C283DFEA774C7C6400E7AF3 /* LGAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -563,7 +769,7 @@
 		};
 		164BE311BFC46C8B9DDBFED168E6BA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 612C220E6BA13EB036EF9E36418E7B44 /* LGAlertView.xcconfig */;
+			baseConfigurationReference = 8E3500378C283DFEA774C7C6400E7AF3 /* LGAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -655,42 +861,7 @@
 			};
 			name = Debug;
 		};
-		CE3584BA8D10B83988959559861D28CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4291196F005EF43922C8510CB9A6EA49 /* Pods-ActionSheetCalendarPicker.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ActionSheetCalendarPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D15A8C94F0ECAEF5DED7BC1F286EA00D /* Debug */ = {
+		4103ED1030DEA9BDEFFD8C3566EFCFC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 942624807627E2013AC7EEDAEA7FF828 /* Pods-ActionSheetCalendarPicker.debug.xcconfig */;
 			buildSettings = {
@@ -725,9 +896,77 @@
 			};
 			name = Debug;
 		};
+		77E51FFDBADB0D6F063016CC6219BC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4291196F005EF43922C8510CB9A6EA49 /* Pods-ActionSheetCalendarPicker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ActionSheetCalendarPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB68D778216F6A8347DB27265E7B82F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D4E38995A4AAA44296A5948A51E4BC /* DateToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateToolsSwift/DateToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateToolsSwift/DateToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = DateToolsSwift;
+				PRODUCT_NAME = DateToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DE5C49BF762CA05F94B681E5851791DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F21094C3F08E83D47E95CBCCC657330 /* JTAppleCalendar.xcconfig */;
+			baseConfigurationReference = 520EA715B4CBC8B2278841F33AF5F237 /* JTAppleCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -760,7 +999,7 @@
 		};
 		F42E8BE3203FB92DF781FD10A9A53015 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F21094C3F08E83D47E95CBCCC657330 /* JTAppleCalendar.xcconfig */;
+			baseConfigurationReference = 520EA715B4CBC8B2278841F33AF5F237 /* JTAppleCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -878,11 +1117,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C61D1DC09E55ADF59299BBC2E1DAFF9B /* Build configuration list for PBXNativeTarget "Pods-ActionSheetCalendarPicker" */ = {
+		DC4B130DA299D1A7BE7F3D995C9C0E61 /* Build configuration list for PBXNativeTarget "Pods-ActionSheetCalendarPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15A8C94F0ECAEF5DED7BC1F286EA00D /* Debug */,
-				CE3584BA8D10B83988959559861D28CE /* Release */,
+				4103ED1030DEA9BDEFFD8C3566EFCFC9 /* Debug */,
+				77E51FFDBADB0D6F063016CC6219BC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E895CDDD9BD03948FD60B879EF8E23F5 /* Build configuration list for PBXNativeTarget "DateToolsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016E79D068DDAB3F505586BE7E13C514 /* Debug */,
+				AB68D778216F6A8347DB27265E7B82F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

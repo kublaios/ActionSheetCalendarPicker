@@ -8,5 +8,6 @@ target 'ActionSheetCalendarPicker' do
   # Pods for ActionSheetCalendarPicker
   pod 'LGAlertView'
   pod 'JTAppleCalendar'
+  pod 'DateToolsSwift'
 
 end

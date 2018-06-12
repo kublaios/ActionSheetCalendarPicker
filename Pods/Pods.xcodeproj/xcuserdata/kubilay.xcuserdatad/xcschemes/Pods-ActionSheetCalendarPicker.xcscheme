@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E60AA591A633F76052795B91C9F8DE12"
+               BlueprintIdentifier = "D76164CCE58B9C74157685F45F2E6AA5"
                BuildableName = "Pods_ActionSheetCalendarPicker.framework"
                BlueprintName = "Pods-ActionSheetCalendarPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E60AA591A633F76052795B91C9F8DE12"
+            BlueprintIdentifier = "D76164CCE58B9C74157685F45F2E6AA5"
             BuildableName = "Pods_ActionSheetCalendarPicker.framework"
             BlueprintName = "Pods-ActionSheetCalendarPicker"
             ReferencedContainer = "container:Pods.xcodeproj">

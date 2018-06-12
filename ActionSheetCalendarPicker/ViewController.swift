@@ -9,6 +9,7 @@
 import UIKit
 import LGAlertView
 import JTAppleCalendar
+import DateToolsSwift
 
 class ViewController: UIViewController {
     let formatter = DateFormatter()
@@ -99,7 +100,10 @@ extension ViewController: JTAppleCalendarViewDataSource
         self.formatter.timeZone = Calendar.current.timeZone
         self.formatter.locale = Calendar.current.locale
         
-        let startDate = formatter.date(from: "2018 01 01")!
+        let calendar = Calendar.current
+        var comps = calendar.dateComponents([.year, .month], from: Date()/* today */)
+        comps.setValue(1, for: .day) // first day of the month
+        let startDate = calendar.date(from: comps)! // start the calendar from current month
         let endDate = formatter.date(from: "2018 12 31")!
         
         let parameters = ConfigurationParameters(startDate: startDate, endDate: endDate, firstDayOfWeek: .monday)
@@ -137,5 +141,9 @@ extension ViewController: JTAppleCalendarViewDelegate
         guard let cv = calendar.superview as? CalendarView else { return }
         self.formatter.dateFormat = "MMMM"
         cv.monthLabel?.text = self.formatter.string(from: date)
+    }
+    
+    func calendar(_ calendar: JTAppleCalendarView, shouldSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) -> Bool {
+        return date >= 1.days.earlier
     }
 }

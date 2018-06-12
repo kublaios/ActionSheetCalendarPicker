@@ -1,20 +1,24 @@
 PODS:
+  - DateToolsSwift (4.0.0)
   - JTAppleCalendar (7.1.5)
   - LGAlertView (2.4.0)
 
 DEPENDENCIES:
+  - DateToolsSwift
   - JTAppleCalendar
   - LGAlertView
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - DateToolsSwift
     - JTAppleCalendar
     - LGAlertView
 
 SPEC CHECKSUMS:
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
   JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
   LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
 
-PODFILE CHECKSUM: b36de29a6e5bf9d5a1f7a435306f8b207b1a5da0
+PODFILE CHECKSUM: c6af643504f975b7b638df1db24388e5202d7ab9
 
 COCOAPODS: 1.5.0
