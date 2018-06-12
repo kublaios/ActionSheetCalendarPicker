@@ -23,6 +23,10 @@ class ViewController: UIViewController {
 
     @IBAction func selectDate(sender: Any?) {
         let alertView = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: nil, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
+        alertView.offsetVertical = 0
+        alertView.cancelButtonOffsetY = 0
+        alertView.layerCornerRadius = 0
+        alertView.width = self.view.frame.size.width
         alertView.showAnimated()
     }
     
