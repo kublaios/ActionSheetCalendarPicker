@@ -16,7 +16,6 @@
 		3E80460320CFC96400E6AA5B /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E80460220CFC96400E6AA5B /* CalendarView.xib */; };
 		3E80460520CFDE0700E6AA5B /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E80460420CFDE0700E6AA5B /* CalendarCell.xib */; };
 		3E80460720CFDE2200E6AA5B /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E80460620CFDE2200E6AA5B /* CalendarCell.swift */; };
-		3E80460920CFE49700E6AA5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E80460820CFE49700E6AA5B /* README.md */; };
 		EA8D9EC16F70ACB399FB024B /* Pods_ActionSheetCalendarPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339FBE66F478820914D1BCD0 /* Pods_ActionSheetCalendarPicker.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		3E80460220CFC96400E6AA5B /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		3E80460420CFDE0700E6AA5B /* CalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
 		3E80460620CFDE2200E6AA5B /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
-		3E80460820CFE49700E6AA5B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		790A02C5EEA1EB349B2FD91E /* Pods-ActionSheetCalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionSheetCalendarPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.release.xcconfig"; sourceTree = "<group>"; };
 		DCD8F84F2E0D3D7BB618E8AB /* Pods-ActionSheetCalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionSheetCalendarPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActionSheetCalendarPicker/Pods-ActionSheetCalendarPicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +72,6 @@
 			children = (
 				3E0A280420CE86C1006159BF /* AppDelegate.swift */,
 				3E0A280620CE86C1006159BF /* ViewController.swift */,
-				3E80460820CFE49700E6AA5B /* README.md */,
 				3E80460420CFDE0700E6AA5B /* CalendarCell.xib */,
 				3E80460620CFDE2200E6AA5B /* CalendarCell.swift */,
 				3E80460220CFC96400E6AA5B /* CalendarView.xib */,
@@ -166,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E80460920CFE49700E6AA5B /* README.md in Resources */,
 				3E0A280F20CE86C3006159BF /* LaunchScreen.storyboard in Resources */,
 				3E0A280C20CE86C3006159BF /* Assets.xcassets in Resources */,
 				3E80460320CFC96400E6AA5B /* CalendarView.xib in Resources */,

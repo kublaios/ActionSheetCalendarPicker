@@ -51,12 +51,8 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSource
+extension ViewController: JTAppleCalendarViewDataSource
 {
-    func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
-        print("JTAppleCalendarView willDisplayCell")
-    }
-    
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
         self.formatter.dateFormat = "yyyy MM dd"
         self.formatter.timeZone = Calendar.current.timeZone
@@ -65,13 +61,24 @@ extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSo
         let startDate = formatter.date(from: "2018 01 01")!
         let endDate = formatter.date(from: "2018 12 31")!
         
-        let parameters = ConfigurationParameters(startDate: startDate, endDate: endDate)
+        let parameters = ConfigurationParameters(startDate: startDate, endDate: endDate, firstDayOfWeek: .monday)
         return parameters
+    }
+}
+
+extension ViewController: JTAppleCalendarViewDelegate
+{
+    func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
+        print("JTAppleCalendarView willDisplayCell")
     }
     
     func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
         let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CalendarCell", for: indexPath) as! CalendarCell
         cell.dateLabel?.text = cellState.text
         return cell
+    }
+    
+    func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
+        print(date)
     }
 }
