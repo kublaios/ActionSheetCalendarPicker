@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func selectDate(sender: Any?) {
+        let alertView = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: nil, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
+        alertView.showAnimated()
+    }
+    
 }
 
