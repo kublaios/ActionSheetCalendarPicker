@@ -8,10 +8,12 @@
 
 import Foundation
 import UIKit
+import JTAppleCalendar
 
 class CalendarView: UIView
 {
     @IBOutlet weak var widthConstant: NSLayoutConstraint?
+    @IBOutlet weak var calendarView: JTAppleCalendarView?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

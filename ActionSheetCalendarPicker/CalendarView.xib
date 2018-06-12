@@ -16,25 +16,33 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oxB-jw-Bek">
-                    <rect key="frame" x="67" y="0.0" width="240" height="300"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xyw-70-bSD" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
+                    <rect key="frame" x="-0.5" y="0.0" width="375" height="300"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="240" id="QTi-ID-Jt1"/>
+                        <constraint firstAttribute="width" constant="375" id="HDF-YT-Xvy"/>
                     </constraints>
-                </view>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cPV-l3-dfL">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="oxB-jw-Bek" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="36h-b8-fXl"/>
-                <constraint firstItem="oxB-jw-Bek" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="5s6-5M-aVo"/>
-                <constraint firstItem="oxB-jw-Bek" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hcg-ds-w4f"/>
+                <constraint firstItem="xyw-70-bSD" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="0HJ-Zf-hlI"/>
+                <constraint firstItem="xyw-70-bSD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0ld-ir-Tz4"/>
+                <constraint firstItem="xyw-70-bSD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g9P-Wd-0rr"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="widthConstant" destination="QTi-ID-Jt1" id="VMw-i7-MBg"/>
+                <outlet property="calendarView" destination="xyw-70-bSD" id="chN-9j-J6D"/>
+                <outlet property="widthConstant" destination="HDF-YT-Xvy" id="CmQ-gQ-f10"/>
             </connections>
+            <point key="canvasLocation" x="54" y="45"/>
         </view>
     </objects>
 </document>
