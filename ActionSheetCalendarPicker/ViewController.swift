@@ -28,9 +28,15 @@ class ViewController: UIViewController {
         if let cv = Bundle.main.loadNibNamed("CalendarView", owner: self, options: nil)?.first as? CalendarView {
             // configure the width of the custom view
             cv.widthConstant?.constant = self.view.frame.size.width
+            
+            // when UICollectionView is inside of a nib file, we are unable to insert a cell through IB (you can try)
+            // so we are registering cells separetely
             cv.calendarView?.register(UINib(nibName: "CalendarCell", bundle: nil), forCellWithReuseIdentifier: "CalendarCell")
+            
+            // setting calendar data source and delegate since we are loading it through a nib file
             cv.calendarView?.calendarDataSource = self
             cv.calendarView?.calendarDelegate = self
+            
             // initialize the action sheet
             let aSheet = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: cv, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
             aSheet.offsetVertical = 0
