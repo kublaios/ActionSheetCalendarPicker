@@ -67,19 +67,19 @@ class ViewController: UIViewController {
         }
     }
     
-    // IB helper functions
+    // MARK: IB helper functions
     @objc func closePicker(sender: Any?) {
         guard let aSheet = self.activeSheet else { return }
         aSheet.dismissAnimated()
     }
     
-    // in-house helper functions
+    // MARK: in-house helper functions
     func handleCellTextColor(cell: JTAppleCell?, cellState: CellState) {
         guard let validCell = cell as? CalendarCell else { return }
         if cellState.isSelected {
             validCell.dateLabel?.textColor = .white
         } else {
-            if cellState.dateBelongsTo == .thisMonth {
+            if cellState.date > 1.days.earlier && cellState.dateBelongsTo == .thisMonth {
                 validCell.dateLabel?.textColor = .black
             } else {
                 validCell.dateLabel?.textColor = .lightGray
