@@ -64,6 +64,7 @@ class ViewController: UIViewController {
             // select today's date by default
             let selectedDate = self.selectedDate ?? Date()
             cv.calendarView?.selectDates([selectedDate])
+            cv.calendarView?.scrollToDate(selectedDate, animateScroll: false)
             self.dateSelectedOnInit = true // preventing the trigger of didSelectDate event since we select a date (even if programmatically)
             
             // initialize the action sheet
