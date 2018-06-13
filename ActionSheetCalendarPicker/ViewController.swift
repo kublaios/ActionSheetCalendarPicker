@@ -145,8 +145,11 @@ extension ViewController: JTAppleCalendarViewDelegate
         self.handleCellTextColor(cell: cell, cellState: cellState)
         self.formatter.dateFormat = "dd MMM yyyy"
         self.lblSelectedDate?.text = self.formatter.string(from: date)
-        self.closePicker(sender: nil)
-        // TODO: delay the closing of the picker
+        // delay the closing of the picker
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(300)) {
+            self.closePicker(sender: nil)
+        }
+        
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
