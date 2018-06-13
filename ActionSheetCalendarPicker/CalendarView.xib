@@ -13,11 +13,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarView" customModule="ActionSheetCalendarPicker" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xyw-70-bSD" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
-                    <rect key="frame" x="-0.5" y="98" width="375" height="277"/>
+                    <rect key="frame" x="-0.5" y="90" width="375" height="260"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="375" id="HDF-YT-Xvy"/>
@@ -30,11 +30,11 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jz-j8-mmo">
-                    <rect key="frame" x="0.0" y="40" width="375" height="30"/>
+                    <rect key="frame" x="0.0" y="32" width="375" height="30"/>
                     <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5Bt-7i-OTN">
-                    <rect key="frame" x="0.0" y="40" width="375" height="30"/>
+                    <rect key="frame" x="0.0" y="32" width="375" height="30"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQq-ns-EF0">
                             <rect key="frame" x="0.0" y="0.0" width="53.5" height="30"/>
@@ -84,29 +84,36 @@
                     </constraints>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="December" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZl-EI-llh">
-                    <rect key="frame" x="16" y="75" width="63.5" height="18"/>
+                    <rect key="frame" x="16" y="67" width="63.5" height="18"/>
                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="13"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txT-0t-hVJ">
+                    <rect key="frame" x="-0.5" y="350" width="375" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="wtY-tZ-icb"/>
+                    </constraints>
+                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klY-6l-BtU">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARRIVAL DATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1X-48-YPW">
-                            <rect key="frame" x="44" y="11" width="96.5" height="19.5"/>
+                            <rect key="frame" x="44" y="1" width="96.5" height="19.5"/>
                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpF-KP-gAt">
-                            <rect key="frame" x="329" y="2" width="30" height="36"/>
+                            <rect key="frame" x="329" y="-8" width="30" height="36"/>
                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                             <state key="normal" title="X">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cal" translatesAutoresizingMaskIntoConstraints="NO" id="wLK-TO-awT">
-                            <rect key="frame" x="20" y="10" width="20" height="20"/>
+                            <rect key="frame" x="20" y="0.0" width="20" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="20" id="9Fx-pQ-32h"/>
                                 <constraint firstAttribute="width" constant="20" id="qcz-oE-1Jl"/>
@@ -117,11 +124,11 @@
                     <constraints>
                         <constraint firstItem="l1X-48-YPW" firstAttribute="centerY" secondItem="wLK-TO-awT" secondAttribute="centerY" id="2sT-v6-GHm"/>
                         <constraint firstItem="wLK-TO-awT" firstAttribute="leading" secondItem="klY-6l-BtU" secondAttribute="leading" constant="20" id="Bp5-Sv-BWi"/>
-                        <constraint firstAttribute="height" constant="40" id="YHM-fm-m7f"/>
-                        <constraint firstItem="wLK-TO-awT" firstAttribute="centerY" secondItem="klY-6l-BtU" secondAttribute="centerY" id="Z7L-Iv-nPS"/>
-                        <constraint firstItem="fpF-KP-gAt" firstAttribute="centerY" secondItem="klY-6l-BtU" secondAttribute="centerY" id="boK-O9-kHd"/>
+                        <constraint firstAttribute="height" constant="32" id="YHM-fm-m7f"/>
+                        <constraint firstItem="fpF-KP-gAt" firstAttribute="centerY" secondItem="l1X-48-YPW" secondAttribute="centerY" id="acI-7C-vDZ"/>
                         <constraint firstItem="l1X-48-YPW" firstAttribute="leading" secondItem="wLK-TO-awT" secondAttribute="trailing" constant="4" id="gc2-Cl-Jmx"/>
                         <constraint firstAttribute="trailing" secondItem="fpF-KP-gAt" secondAttribute="trailing" constant="16" id="jFd-JJ-Gn8"/>
+                        <constraint firstItem="wLK-TO-awT" firstAttribute="top" secondItem="klY-6l-BtU" secondAttribute="top" id="pkU-aP-0BI"/>
                     </constraints>
                 </view>
             </subviews>
@@ -130,8 +137,10 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5Bt-7i-OTN" secondAttribute="trailing" id="0hB-6m-PY7"/>
                 <constraint firstItem="JZl-EI-llh" firstAttribute="top" secondItem="5Bt-7i-OTN" secondAttribute="bottom" constant="5" id="B2d-41-qUi"/>
                 <constraint firstItem="5Bt-7i-OTN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BwE-QT-cFt"/>
+                <constraint firstItem="txT-0t-hVJ" firstAttribute="centerX" secondItem="klY-6l-BtU" secondAttribute="centerX" id="CnQ-uF-nXq"/>
                 <constraint firstItem="klY-6l-BtU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DXp-EI-fZe"/>
                 <constraint firstItem="0jz-j8-mmo" firstAttribute="width" secondItem="5Bt-7i-OTN" secondAttribute="width" id="Hak-qo-pf2"/>
+                <constraint firstItem="txT-0t-hVJ" firstAttribute="width" secondItem="klY-6l-BtU" secondAttribute="width" id="Oqs-K1-83l"/>
                 <constraint firstItem="xyw-70-bSD" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="TRj-Hc-7Mb"/>
                 <constraint firstItem="klY-6l-BtU" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VbZ-d6-Xdo"/>
                 <constraint firstItem="xyw-70-bSD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g9P-Wd-0rr"/>
@@ -141,6 +150,7 @@
                 <constraint firstItem="klY-6l-BtU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="kjT-Bm-RRV"/>
                 <constraint firstItem="0jz-j8-mmo" firstAttribute="height" secondItem="5Bt-7i-OTN" secondAttribute="height" id="tGf-Px-nRa"/>
                 <constraint firstItem="JZl-EI-llh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="vWb-sy-M9j"/>
+                <constraint firstItem="txT-0t-hVJ" firstAttribute="top" secondItem="xyw-70-bSD" secondAttribute="bottom" id="xao-BH-BHd"/>
                 <constraint firstItem="5Bt-7i-OTN" firstAttribute="top" secondItem="klY-6l-BtU" secondAttribute="bottom" id="z00-r8-ufh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

@@ -71,6 +71,13 @@ class ViewController: UIViewController {
             aSheet.offsetVertical = 0
             aSheet.cancelButtonOffsetY = 0
             aSheet.layerCornerRadius = 0
+            /**
+             * TODO
+             * action sheet component tends to place margin at the top and the bottom of the inner view
+             * to work this around, we set the bg color to header view's
+             * there is also a view that is at the bottom & outside of the inner view (placed on IB)
+            */
+            aSheet.backgroundColor = UIColor(red: 0.76470588235294112, green: 0.27843137254901962, blue: 0.24705882352941178, alpha: 1.0)
             aSheet.width = self.view.frame.size.width
             self.activeSheet = aSheet // set the property to use when close button is tapped
             aSheet.showAnimated()
