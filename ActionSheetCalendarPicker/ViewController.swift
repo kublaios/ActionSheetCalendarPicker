@@ -149,7 +149,6 @@ extension ViewController: JTAppleCalendarViewDelegate
         DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(300)) {
             self.closePicker(sender: nil)
         }
-        
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {

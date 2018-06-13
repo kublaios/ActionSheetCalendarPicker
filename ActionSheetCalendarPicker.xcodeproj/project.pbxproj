@@ -12,6 +12,7 @@
 		3E0A280A20CE86C1006159BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280820CE86C1006159BF /* Main.storyboard */; };
 		3E0A280C20CE86C3006159BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280B20CE86C3006159BF /* Assets.xcassets */; };
 		3E0A280F20CE86C3006159BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A280D20CE86C3006159BF /* LaunchScreen.storyboard */; };
+		3E58E2FB20D0E3470005642E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58E2FA20D0E3470005642E /* Extensions.swift */; };
 		3E8045FD20CFC83F00E6AA5B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8045FC20CFC83F00E6AA5B /* CalendarView.swift */; };
 		3E80460320CFC96400E6AA5B /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E80460220CFC96400E6AA5B /* CalendarView.xib */; };
 		3E80460520CFDE0700E6AA5B /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E80460420CFDE0700E6AA5B /* CalendarCell.xib */; };
@@ -28,6 +29,7 @@
 		3E0A280B20CE86C3006159BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E0A280E20CE86C3006159BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E0A281020CE86C3006159BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E58E2FA20D0E3470005642E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3E8045F920CFC69300E6AA5B /* ActionSheetCalendarPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionSheetCalendarPicker-Bridging-Header.h"; sourceTree = "<group>"; };
 		3E8045FC20CFC83F00E6AA5B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		3E80460220CFC96400E6AA5B /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				3E0A280420CE86C1006159BF /* AppDelegate.swift */,
 				3E0A280620CE86C1006159BF /* ViewController.swift */,
+				3E58E2FA20D0E3470005642E /* Extensions.swift */,
 				3E80460420CFDE0700E6AA5B /* CalendarCell.xib */,
 				3E80460620CFDE2200E6AA5B /* CalendarCell.swift */,
 				3E80460220CFC96400E6AA5B /* CalendarView.xib */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E58E2FB20D0E3470005642E /* Extensions.swift in Sources */,
 				3E0A280720CE86C1006159BF /* ViewController.swift in Sources */,
 				3E0A280520CE86C1006159BF /* AppDelegate.swift in Sources */,
 				3E8045FD20CFC83F00E6AA5B /* CalendarView.swift in Sources */,
@@ -374,7 +378,10 @@
 				DEVELOPMENT_TEAM = 8S3FTRWYE7;
 				INFOPLIST_FILE = ActionSheetCalendarPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.ActionSheetCalendarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ActionSheetCalendarPicker/ActionSheetCalendarPicker-Bridging-Header.h";
@@ -394,7 +401,10 @@
 				DEVELOPMENT_TEAM = 8S3FTRWYE7;
 				INFOPLIST_FILE = ActionSheetCalendarPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.ActionSheetCalendarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ActionSheetCalendarPicker/ActionSheetCalendarPicker-Bridging-Header.h";
