@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     let formatter = DateFormatter()
     var activeSheet: LGAlertView?
     var calendarView: JTAppleCalendarView?
+    var dateSelectedOnInit = false
+    var selectedDate: Date?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +61,11 @@ class ViewController: UIViewController {
             cv.headerLabel?.text = "DEPARTURE DATE"
             cv.headerButton?.addTarget(self, action: #selector(self.closePicker(sender:)), for: .touchUpInside)
             
+            // select today's date by default
+            let selectedDate = self.selectedDate ?? Date()
+            cv.calendarView?.selectDates([selectedDate])
+            self.dateSelectedOnInit = true // preventing the trigger of didSelectDate event since we select a date (even if programmatically)
+            
             // initialize the action sheet
             let aSheet = LGAlertView.init(viewAndTitle: nil, message: nil, style: .actionSheet, view: cv, buttonTitles: nil, cancelButtonTitle: nil, destructiveButtonTitle: nil, delegate: nil)
             aSheet.offsetVertical = 0
@@ -92,9 +99,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func handleCellBackgroundColor(cell: JTAppleCell?, cellState: CellState) {
+    func handleCellBackground(cell: JTAppleCell?, cellState: CellState) {
         guard let validCell = cell as? CalendarCell else { return }
-        validCell.backgroundColor = cellState.isSelected ? .blue : .clear // bugfix, see https://github.com/patchthecode/JTAppleCalendar/issues/553
+        validCell.labelBackground?.isHidden = !cellState.isSelected // bugfix, see https://github.com/patchthecode/JTAppleCalendar/issues/553
     }
 }
 
@@ -135,16 +142,25 @@ extension ViewController: JTAppleCalendarViewDelegate
     func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
         let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CalendarCell", for: indexPath) as! CalendarCell
         cell.dateLabel?.text = cellState.text
-        self.handleCellBackgroundColor(cell: cell, cellState: cellState)
+        self.handleCellBackground(cell: cell, cellState: cellState)
         self.handleCellTextColor(cell: cell, cellState: cellState)
         return cell
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
-        self.handleCellBackgroundColor(cell: cell, cellState: cellState)
+        self.handleCellBackground(cell: cell, cellState: cellState)
         self.handleCellTextColor(cell: cell, cellState: cellState)
+        
+        // if this event is fired on init (after us setting the default date)
+        if self.dateSelectedOnInit {
+            self.dateSelectedOnInit = false
+            return
+        }
+        
+        self.selectedDate = date
         self.formatter.dateFormat = "dd MMM yyyy"
         self.lblSelectedDate?.text = self.formatter.string(from: date)
+        
         // delay the closing of the picker
         DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(300)) {
             self.closePicker(sender: nil)
@@ -152,7 +168,7 @@ extension ViewController: JTAppleCalendarViewDelegate
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
-        self.handleCellBackgroundColor(cell: cell, cellState: cellState)
+        self.handleCellBackground(cell: cell, cellState: cellState)
         self.handleCellTextColor(cell: cell, cellState: cellState)
     }
     

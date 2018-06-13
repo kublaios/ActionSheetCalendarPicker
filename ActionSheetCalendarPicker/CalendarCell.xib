@@ -19,15 +19,30 @@
                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="742-MS-TYB">
-                        <rect key="frame" x="29" y="40" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uti-EJ-MY6">
+                        <rect key="frame" x="34" y="34" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.30588235294117649" green="0.68627450980392157" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="9nz-il-GnT"/>
+                            <constraint firstAttribute="height" constant="32" id="eBd-oH-7ZV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="742-MS-TYB">
+                        <rect key="frame" x="41.5" y="40.5" width="17.5" height="19.5"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
             <constraints>
+                <constraint firstItem="Uti-EJ-MY6" firstAttribute="centerX" secondItem="742-MS-TYB" secondAttribute="centerX" id="VBp-FG-PZu"/>
+                <constraint firstItem="Uti-EJ-MY6" firstAttribute="centerY" secondItem="742-MS-TYB" secondAttribute="centerY" id="fKO-Cs-0D0"/>
                 <constraint firstItem="742-MS-TYB" firstAttribute="centerX" secondItem="32Z-FH-Y9G" secondAttribute="centerX" id="wDF-ZP-nZU"/>
                 <constraint firstItem="742-MS-TYB" firstAttribute="centerY" secondItem="32Z-FH-Y9G" secondAttribute="centerY" id="yKL-DX-vIu"/>
             </constraints>
@@ -35,6 +50,7 @@
             <size key="customSize" width="110" height="107"/>
             <connections>
                 <outlet property="dateLabel" destination="742-MS-TYB" id="eZG-G9-cAp"/>
+                <outlet property="labelBackground" destination="Uti-EJ-MY6" id="GDO-BT-OGo"/>
             </connections>
             <point key="canvasLocation" x="27" y="-21.5"/>
         </collectionViewCell>
