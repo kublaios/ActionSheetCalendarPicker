@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             // set date label
             cv.calendarView?.visibleDates({ (visibleDates) in
                 guard let date = visibleDates.monthDates.first?.date else { return }
-                self.formatter.dateFormat = "MMMM"
+                self.formatter.dateFormat = "MMMM" // TODO: Localize strings
                 cv.monthLabel?.text = self.formatter.string(from: date)
             })
             
@@ -133,7 +133,7 @@ extension ViewController: JTAppleCalendarViewDataSource
         var comps = calendar.dateComponents([.year, .month], from: Date()/* today */)
         comps.setValue(1, for: .day) // first day of the month
         let startDate = calendar.date(from: comps)! // start the calendar from current month
-        let endDate = formatter.date(from: "2018 12 31")!
+        let endDate = formatter.date(from: "2018 12 31")! // TODO: Set this to the end of the current year
         
         let parameters = ConfigurationParameters(startDate: startDate, endDate: endDate, firstDayOfWeek: .monday)
         return parameters
@@ -183,7 +183,7 @@ extension ViewController: JTAppleCalendarViewDelegate
     func calendar(_ calendar: JTAppleCalendarView, didScrollToDateSegmentWith visibleDates: DateSegmentInfo) {
         guard let date = visibleDates.monthDates.first?.date else { return }
         guard let cv = calendar.superview as? CalendarView else { return }
-        self.formatter.dateFormat = "MMMM"
+        self.formatter.dateFormat = "MMMM" // TODO: Localize strings
         cv.monthLabel?.text = self.formatter.string(from: date)
     }
     

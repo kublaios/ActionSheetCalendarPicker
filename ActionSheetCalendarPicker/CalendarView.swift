@@ -31,6 +31,7 @@ class CalendarView: UIView
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        // TODO: Localize strings
         self.day1?.text = "Mon"
         self.day2?.text = "Tue"
         self.day3?.text = "Wed"
